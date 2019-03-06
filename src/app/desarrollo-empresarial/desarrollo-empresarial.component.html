@@ -1,0 +1,74 @@
+<header id="main-header" class="header">
+
+
+    <div class="row1">
+        <div class="column">
+
+          <div class="colum2">
+
+            <mat-icon class="iconHeader">call</mat-icon>
+            <h4 class="h1tel">618-189-0440</h4>
+
+          </div>
+          <div class="colum2">
+
+              <mat-icon class="iconEmail">email</mat-icon>
+               <h4 class="h1tel">direccion@inovatix.com.mx</h4>
+
+            </div>
+        </div>
+        <div class="column">
+
+            <a href="https://www.facebook.com/inovatix.org/" target="_blank">
+            <img class="imgFb"  src="assets/img/facebook.png" alt="">
+            </a>
+          
+          
+        </div>
+       
+      </div>
+      <div class="divSepara"></div>
+
+      <div class="row">
+        <div class="columMenuLogo">
+
+            <img class="imgLogo" src="assets/img/logo_ino.png" alt="">
+        </div>
+        <div class="columMenu">
+
+            <button mat-button color="primary" routerLink="" class="btnMenuHome">Home</button>
+            <button mat-button color="primary" routerLink="/proyectos" class="btnMenu">Principales Proyectos</button>
+            <button mat-button color="primary" routerLink="/tienda" class="btnMenuTienda">Tienda en Linea</button>
+            <button mat-button color="primary" routerLink="/marca" class="btnMenu">Registro de Marca</button>
+            <button mat-button color="primary" routerLink="/desarrollo" class="btnMenu">Desarrollo empresarial</button>
+            <button mat-button color="primary" routerLink="/contactanos" class="btnMenu">Contactanos</button>
+            <div class="divHamburgesa">
+              <button class="btnHamburger" mat-icon-button [matMenuTriggerFor]="menu">
+                <mat-icon>menu</mat-icon>
+              </button>
+              <mat-menu #menu="matMenu">
+                <button routerLink="" mat-menu-item >
+                  <span>Home</span>
+                </button>
+                <button routerLink="/proyectos" mat-menu-item >
+                  <span>Principales Proyectos</span>
+                </button>
+                <button routerLink="/tienda" mat-menu-item>
+                  <span>Tienda en Linea</span>
+                </button>
+                <button routerLink="/marca" mat-menu-item>
+                    <span>Registro de Marca</span>
+                  </button>
+                  <button routerLink="/desarrollo" mat-menu-item disabled>
+                      <span>Desarrollo Empresarial</span>
+                    </button>
+                    <button routerLink="/contactanos" mat-menu-item>
+                        <span>Contactanos</span>
+                      </button>
+              </mat-menu></div>
+        </div>
+      </div>
+
+   
+
+</header>

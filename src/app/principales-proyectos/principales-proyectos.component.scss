@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Montserrat|Quicksand');
+
+@media screen and (max-width:640px) {
+  .iconHeader{
+    
+    margin-left: 40%;
+    color: rgb(105, 54, 126);
+    float: left;
+    display: none;
+    
+}
+
+
+.h1tel{
+   
+  display: none;
+    color: rgb(105, 54, 126);
+    font-family: Quicksand;
+    margin-left: 2%;
+    font-size: .7vw;
+   
+
+}
+
+.iconEmail{
+  display: none;
+  color: rgb(105, 54, 126);
+    float: left;
+    width: 20px;
+    
+    
+
+}
+
+.column {
+  display: none;
+    margin-top: 1vw;
+    float: left;
+    width: 50%;
+  }
+
+.colum2{
+  display: none;
+    float: left;
+    width: 31%;
+}
+
+
+  .row1:after {
+    
+    content: "";
+    display: none;
+    clear: both;
+  }
+
+  #main-header {
+    background: #FFF;
+    color: white;
+    height: 15vw;
+    z-index: 1;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+  }
+
+  .divSepara{
+    display: none;
+    height: 1px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5px;
+    background-color: rgb(105, 54, 126);
+}
+
+.columnMi{
+  float: left;
+  width: 100%;
+  height: 60vw;
+  text-align: justify;
+  
+  background-color: rgb(243, 243, 243);
+}
+
+.columnMimi{
+  text-align: justify;
+  float: left;
+  width: 100%;
+   height: 60vw;
+  
+  background-color: rgb(243, 243, 243);
+}
+
+
+
+.columMenu{
+  float: left;
+  width: 70%;
+  text-align: right;
+  margin-top: 1.5vw;
+}
+
+.columMenuLogo{
+  float: left;
+  width: 30%;
+  text-align: center;
+  
+}
+
+.btnMenu{
+  display: none;
+  color: #000;
+  width: 12vw;
+  height: 2.5vw;
+  font-size: .9vw;
+  font-family: Montserrat;
+
+}
+
+.btnMenuHome{
+  display: none;
+  height: 2.5vw;
+  color: #000;
+  width: 7vw;
+  font-size: 1vw;
+  font-family: Montserrat;
+
+}
+
+.btnMenuTienda{
+  display: none;
+  height: 2.5vw;
+  color: #000;
+  width: 12vw;
+  font-size: .9vw;
+  font-family: Montserrat; 
+}
+.imgLogo{
+    height: 12vw;
+    margin-left: 1vw;
+    margin-top: .8vw;
+}
+
+
+
+.btnHamburger{
+  color: rgb(105, 54, 126);
+  margin-right: 25%;
+  
+}
+
+.avatar {
+  
+  margin-left: 7vw;
+  display: block;
+  border-radius: 200px;
+  box-sizing: border-box;
+  background-color: #DDD;
+  border: .5vw solid rgb(105, 54, 126);
+  height: 20vw;
+  width: 20vw
+}
+
+
+.columnProyectos{
+  float: left;
+  text-align: center;
+  width: 33.33%;
+  height: 23%;
+  padding: 0;
+}
+
+.h4Proyectos{
+  font-family: Montserrat;
+  padding: 0;
+  font-size: 2vw;
+  color:  rgb(105, 54, 126);;
+}
+
+.pProyectos{
+  font-family: Quicksand;
+  padding: 0;
+  font-size: 2vw;
+}
+
+.divEspaciado{
+  margin-top: 15%;
+ 
+  width: 100%;
+}
+
+
+}
+@media screen and (max-width:1024px) and (min-width:640px) {
+  
+  .iconHeader{
+    display: none;
+    margin-left: 40%;
+    color: rgb(105, 54, 126);
+    float: left;
+    
+}
+
+.h1tel{
+   
+  display: none;
+    color: rgb(105, 54, 126);
+    font-family: Quicksand;
+    margin-left: 2%;
+    font-size: .7vw;
+   
+
+}
+
+.iconEmail{
+  display: none;
+  color: rgb(105, 54, 126);
+    float: left;
+    width: 20px;
+    
+    
+
+}
+
+.column {
+    margin-top: 1vw;
+    float: left;
+    width: 50%;
+    display: none;
+  }
+
+.colum2{
+    float: left;
+    width: 31%;
+    display: none;
+}
+
+
+  .row1:after {
+    
+    content: "";
+    display: none;
+    clear: both;
+  }
+
+  #main-header {
+    background: #FFF;
+    color: white;
+    height: 10vw;
+    z-index: 1;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+  }
+
+  .divSepara{
+    height: 1px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5px;
+    background-color: rgb(105, 54, 126);
+    display: none;
+}
+
+
+.columMenu{
+  float: left;
+  width: 70%;
+  text-align: right;
+  margin-top: 2vw;
+}
+
+.columMenuLogo{
+  float: left;
+  width: 30%;
+ 
+  
+}
+
+.btnMenu{
+  display: none;
+  color: #000;
+  width: 12vw;
+  height: 2.5vw;
+  font-size: .9vw;
+  font-family: Montserrat;
+
+}
+
+.btnMenuHome{
+  display: none;
+  height: 2.5vw;
+  color: #000;
+  width: 7vw;
+  font-size: 1vw;
+  font-family: Montserrat;
+
+}
+
+.btnMenuTienda{
+  display: none;
+  height: 2.5vw;
+  color: #000;
+  width: 12vw;
+  font-size: .9vw;
+  font-family: Montserrat; 
+}
+.imgLogo{
+    height: 9vw;
+    margin-left: 1vw;
+    margin-top: .5vw;
+}
+
+
+.btnHamburger{
+  color: rgb(105, 54, 126);
+  margin-right: 25%;
+}
+
+
+.avatar {
+  
+  margin-left: 7vw;
+  display: block;
+  border-radius: 200px;
+  box-sizing: border-box;
+  background-color: #DDD;
+  border: .5vw solid rgb(105, 54, 126);
+  height: 20vw;
+  width: 20vw
+}
+
+
+.columnProyectos{
+  float: left;
+  text-align: center;
+  width: 33.33%;
+  height: 23%;
+  padding: 0;
+}
+
+.h4Proyectos{
+  font-family: Montserrat;
+  padding: 0;
+  font-size: 2vw;
+  color:  rgb(105, 54, 126);;
+}
+
+.pProyectos{
+  font-family: Quicksand;
+  padding: 0;
+  font-size: 2vw;
+}
+
+.divEspaciado{
+  margin-top: 12%;
+ 
+  width: 100%;
+}
+
+
+
+
+
+}
+@media screen and (min-width:1024px) {
+ 
+ 
+  .iconHeader{
+    
+    margin-left: 60%;
+    color: rgb(105, 54, 126);
+    float: left;
+    
+}
+
+.h1tel{
+   
+    display: inline;
+    color: rgb(105, 54, 126);
+    font-family: Quicksand;
+    
+    font-size: .7vw;
+   
+
+}
+
+.iconEmail{
+  color: rgb(105, 54, 126);
+    float: left;
+    width: 20px;
+    margin-left: 28%;
+    
+    
+
+}
+
+.column {
+    margin-top: 1vw;
+    float: left;
+    text-align: right;
+    display: none;
+    width: 50%;
+  }
+
+.colum2{
+    float: left;
+    width: 31%;
+}
+
+
+  .row1:after {
+    
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #main-header {
+    background: rgba(0, 0, 0, 0.658);
+    color: white;
+    height: 5vw;
+    z-index: 2;
+    
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+  }
+
+  .divSepara{
+    height: 1px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5px;
+    display: none;
+    background-color: rgb(105, 54, 126);
+}
+
+
+  
+  .columMenu{
+    float: left;
+    width: 70%;
+    text-align: center;
+    margin-top: 1.5vw;
+  }
+
+  .columMenuLogo{
+    float: left;
+    width: 30%;
+    text-align: center;
+    
+  }
+
+  .btnMenu{
+
+    color: #FFF;
+    width: 12vw;
+    height: 2.5vw;
+    font-size: .9vw;
+    font-family: Montserrat;
+
+  }
+
+  .btnMenuHome{
+    height: 2.5vw;
+    color: #FFF;
+    width: 7vw;
+    font-size: 1vw;
+    font-family: Montserrat;
+  
+  }
+
+  .btnMenuTienda{
+    height: 2.5vw;
+    color: #FFF;
+    width: 12vw;
+    font-size: .9vw;
+    font-family: Montserrat; 
+  }
+  .imgLogo{
+      height: 4vw;
+      margin-left: 1vw;
+      margin-top: .5vw;
+  }
+
+  .divHamburgesa{
+    display: none;
+
+  }
+
+  
+.avatar {
+  
+  margin-left: 20%;
+  display: block;
+  border-radius: 200px;
+  box-sizing: border-box;
+  background-color: #DDD;
+  border: 5px solid rgb(105, 54, 126);
+  height: 200px;
+  width: 200px
+}
+
+
+.columnProyectos{
+  float: left;
+  text-align: center;
+  width: 25%;
+  height: 26vw;
+  padding: 0;
+}
+
+.h4Proyectos{
+  font-family: Montserrat;
+  padding: 0;
+  color:  rgb(105, 54, 126);;
+}
+
+.pProyectos{
+  font-family: Quicksand;
+  padding: 0;
+}
+
+.divEspaciado{
+  margin-top: 5%;
+ 
+  width: 100%;
+}
+
+  
+}
+
+.imgFb{
+  width: 1.5vw;
+  margin-right: 7%;
+}
+
+
+
+.divFondo{
+    background-color: #FFF;
+    height: 180vw;
+    text-align: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-position: center center;
+}
+
+html,
+body,
+.view {
+  height: 100vh;
+}
+
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100vh;
+}
+
+.carousel .carousel-inner {
+  height: 100vh;
+}
+
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active {
+  height: 100vh;
+}
+
+.video-fluid {
+    max-width: unset;
+}
+
+
+

@@ -1,0 +1,149 @@
+<header id="main-header" class="header">
+
+
+    <div class="row1">
+        <div class="column">
+
+          <div class="colum2">
+
+            <mat-icon class="iconHeader">call</mat-icon>
+            <h4 class="h1tel">618-189-0440</h4>
+
+          </div>
+          <div class="colum2">
+
+              <mat-icon class="iconEmail">email</mat-icon>
+               <h4 class="h1tel">direccion@inovatix.com.mx</h4>
+
+            </div>
+        </div>
+        <div class="column">
+
+            <a href="https://www.facebook.com/inovatix.org/" target="_blank">
+            <img class="imgFb"  src="assets/img/facebook.png" alt="">
+            </a>
+          
+          
+        </div>
+       
+      </div>
+      <div class="divSepara"></div>
+
+      <div class="row">
+        <div class="columMenuLogo">
+
+            <img class="imgLogo" src="assets/img/logo_ino_contor.png" alt="">
+        </div>
+        <div class="columMenu">
+
+            <button mat-button color="primary" routerLink="" class="btnMenuHome">Home</button>
+            <button mat-button color="primary" routerLink="/proyectos" class="btnMenu">Principales Proyectos</button>
+            <button mat-button color="primary" routerLink="/tienda" class="btnMenuTienda">Tienda en Linea</button>
+            <button mat-button color="primary" routerLink="/marca" class="btnMenu">Registro de Marca</button>
+            <button mat-button color="primary" routerLink="/desarrollo" class="btnMenu">Desarrollo empresarial</button>
+            <button mat-button color="primary" routerLink="/contactanos" class="btnMenu">Contactanos</button>
+            <div class="divHamburgesa">
+              <button class="btnHamburger" mat-icon-button [matMenuTriggerFor]="menu">
+                <mat-icon>menu</mat-icon>
+              </button>
+              <mat-menu #menu="matMenu">
+                <button routerLink="" mat-menu-item >
+                  <span>Home</span>
+                </button>
+                <button routerLink="/proyectos" mat-menu-item disabled>
+                  <span>Principales Proyectos</span>
+                </button>
+                <button routerLink="/tienda" mat-menu-item>
+                  <span>Tienda en Linea</span>
+                </button>
+                <button routerLink="/marca" mat-menu-item>
+                    <span>Registro de Marca</span>
+                  </button>
+                  <button routerLink="/desarrollo" mat-menu-item>
+                      <span>Desarrollo Empresarial</span>
+                    </button>
+                    <button routerLink="/contactanos" mat-menu-item>
+                        <span>Contactanos</span>
+                      </button>
+              </mat-menu></div>
+        </div>
+      </div>
+
+   
+
+</header>
+
+
+<body>
+
+  
+
+  <div class="divFondo">
+
+      <mdb-carousel class="carousel slide" [animation]="'slide'">
+          <mdb-carousel-item>
+            <div class="view">
+              <video class="video-fluid" autoplay loop>
+                <source src="https://mdbootstrap.com/img/video/Lines.mp4" type="video/mp4" />
+              </video>
+              <div class="mask rgba-indigo-light waves-light" mdbWavesEffect></div>
+            </div>
+        
+            <div class="carousel-caption">
+              <div class="animated fadeInDown">
+                <h3 class="h3-responsive">Light mask</h3>
+                <p>First text</p>
+              </div>
+            </div>
+          </mdb-carousel-item>
+          <mdb-carousel-item>
+            <div class="view">
+              <video class="video-fluid" autoplay loop>
+                <source src="https://mdbootstrap.com/img/video/animation-intro.mp4" type="video/mp4" />
+              </video>
+              <div class="mask rgba-purple-slight waves-light" mdbWavesEffect></div>
+            </div>
+        
+            <div class="carousel-caption">
+              <div class="animated fadeInDown">
+                <h3 class="h3-responsive">Super light mask</h3>
+                <p>Secondary text</p>
+              </div>
+            </div>
+          </mdb-carousel-item>
+          <mdb-carousel-item>
+            <div class="view">
+              <video class="video-fluid" autoplay loop>
+                <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4" />
+              </video>
+              <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
+            </div>
+        
+            <div class="carousel-caption">
+              <div class="animated fadeInDown">
+                <h3 class="h3-responsive">Strong mask</h3>
+                <p>Third text</p>
+              </div>
+            </div>
+          </mdb-carousel-item>
+        </mdb-carousel>
+
+      <div class="divEspaciado"></div>
+        
+        <div class="columnProyectos" *ngFor="let item of proyecto">
+            <img class="avatar" [src]="item.img">
+            <h4 class="h4Proyectos">{{item.titulo}}</h4>
+            <p class="pProyectos">{{item.subtitulo}}</p>
+
+        </div>
+
+
+
+  </div>
+
+
+  
+  
+
+</body>
+

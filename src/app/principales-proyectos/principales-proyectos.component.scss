@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One|Montserrat|Quicksand');
 
 @media screen and (max-width:640px) {
+
+  .divSepaIni{
+    margin-top: 10%;
+  }
   .iconHeader{
     
     margin-left: 40%;
@@ -359,6 +363,29 @@
   width: 100%;
 }
 
+html,
+body,
+.view {
+  height: 100vh;
+}
+
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100vh;
+}
+
+.carousel .carousel-inner {
+  height: 100vh;
+}
+
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active {
+  height: 100vh;
+}
+
+.video-fluid {
+    max-width: unset;
+}
 
 
 
@@ -530,26 +557,6 @@
   width: 100%;
 }
 
-  
-}
-
-.imgFb{
-  width: 1.5vw;
-  margin-right: 7%;
-}
-
-
-
-.divFondo{
-    background-color: #FFF;
-    height: 180vw;
-    text-align: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    z-index: -1;
-    background-position: center center;
-}
-
 html,
 body,
 .view {
@@ -573,6 +580,28 @@ body,
 .video-fluid {
     max-width: unset;
 }
+
+
+  
+}
+
+.imgFb{
+  width: 1.5vw;
+  margin-right: 7%;
+}
+
+
+
+.divFondo{
+    background-color: #FFF;
+    height: 180vw;
+    text-align: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-position: center center;
+}
+
 
 
 

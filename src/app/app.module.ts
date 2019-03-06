@@ -14,6 +14,7 @@ import { DesarrolloEmpresarialComponent } from './desarrollo-empresarial/desarro
 import { ContactanosComponent } from './contactanos/contactanos.component';
 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { VermasComponent } from './vermas/vermas.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
     TiendaLineaComponent,
     RegistroMarcaComponent,
     DesarrolloEmpresarialComponent,
-    ContactanosComponent
+    ContactanosComponent,
+    VermasComponent
   ],
   imports: [
     BrowserModule,
@@ -32,6 +34,7 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
     MaterialModule,
     MDBBootstrapModule.forRoot()
   ],
+  entryComponents: [VermasComponent],
   providers: [],
   bootstrap: [AppComponent]
 })

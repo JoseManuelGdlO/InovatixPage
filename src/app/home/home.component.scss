@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One|Montserrat|Quicksand');
 
 @media screen and (max-width:640px) {
+
+  .divSepaIni{
+    margin-top: 15%;
+  }
+  
   .iconHeader{
     
     margin-left: 40%;
@@ -75,17 +80,41 @@
 .columnMi{
   float: left;
   width: 100%;
-  height: 60vw;
+  height: 70vw;
   text-align: justify;
   
   background-color: rgb(243, 243, 243);
 }
 
+.columFort{
+  float: left;
+  width: 45%;
+  text-align: left;
+  margin-left: 2%;
+}
+
+.rowFort{
+
+    width: 100%;
+}
+
+.h1Fort{
+  font-family: Montserrat;
+  font-size: 4vw;
+}
+
+.iconFort{
+  padding: 2vw;
+  margin-right: 1vw;
+  color:rgb(166, 41, 216);
+}
+
+
 .columnMimi{
   text-align: justify;
   float: left;
   width: 100%;
-   height: 60vw;
+   height: 65vw;
   
   background-color: rgb(243, 243, 243);
 }
@@ -198,13 +227,121 @@
   
 }
 
+.h1Serv{
+  font-family: Quicksand;
+  font-size: 4vw;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-left: 23%; 
+  height:19%;
+  color: #FFF;
+
+}
+
+.h1ServN{
+  font-family: Quicksand;
+  font-size: 4vw;
+  margin-right: 23vw;
+  color: #FFF;
+  margin-bottom: 2vw;
+  padding: 0%;
+
+}
+
+.divAlign{
+  text-align: end;
+  padding: 0;
+  
+  
+}
 
 
+.rowServicios:after {
+    
+  content: "";
+  display: table;
+  clear: both;
+  text-align: center;
+  
+}
+
+
+.columServDos{
+
+  float: left;
+  width: 100%;
+  height: 120vw;
+  text-align: center;
+  text-justify: inter-word;
+  background-color:#fff;
+
+}
+
+
+
+.columServUno{
+  float: left;
+  width: 100%;
+  height: 33vw;
+  text-align: initial;
+  text-justify: inter-word;
+  background-color:rgb(166, 41, 216);
+  padding: 0;
+
+
+}
+
+
+.pServ{
+  font-family: Montserrat, 'Courier New', Courier, monospace;
+  font-size: 2vw;
+  padding-top: 0%;
+  padding-left: 10%;
+  padding-right: 5%;
+  color: #FFF;
+}
+
+.columServBtn{
+
+  float: left;
+  width: 100%;
+  height: 50vw;
+  text-align: center;
+  text-justify: inter-word;
+  background-color:#fff;
+  margin-top: 2vw;
+
+}
+
+.imgServ{
+  height: 10vw;
+}
+
+.h1ServColum{
+  font-family: Quicksand;
+  font-size: 3.5vw;
+  color:rgb(166, 41, 216);
+}
+
+.justificar{
+  text-align: center;
+}
+
+
+.pServColum{
+  font-size: 3vw;
+  padding: 2%;
+  font-family: Montserrat;
+
+}
 
 
 
 }
+
+/*-o-o-o-o-oo--o-o-o-o-o-o-o-o-o-o-o-o-oo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o*/
 @media screen and (max-width:1024px) and (min-width:640px) {
+
   
   .iconHeader{
     display: none;
@@ -285,10 +422,34 @@
   background-color: rgb(243, 243, 243);
 }
 
+.columFort{
+  float: left;
+  width: 45%;
+  text-align: left;
+  margin-left: 2%;
+}
+
+.rowFort{
+
+    width: 100%;
+}
+
+.h1Fort{
+  font-family: Montserrat;
+  font-size: 2vw;
+  height: 4vw;
+}
+
+.iconFort{
+ top: 2vw;
+  margin-right: 1vw;
+  color:rgb(166, 41, 216);
+}
+
 .columnMimi{
   float: left;
   width: 100%;
-   height: 30vw;
+   height: 33vw;
   text-align: center;
   background-color: rgb(243, 243, 243);
 }
@@ -325,7 +486,7 @@
 
 .pMis{
   font-family: Quicksand;
-  font-size: 1.5vw;
+  font-size: 1.6vw;
   padding-top: 1vw;
   padding-right: 8vw;
   padding-left: 8vw;
@@ -333,7 +494,7 @@
 }
 
 .divValores{
-  height: 60vw;
+  height: 70vw;
   background-color: rgb(243, 243, 243);
 }
 
@@ -397,10 +558,147 @@
 }
 
 
+.h1Serv{
+  font-family: Quicksand;
+  font-size: 2vw;
+  padding-top: 15%;
+  padding-bottom: 0;
+  margin-left: 10%; 
+  height:30%;
+  color: #FFF;
+
+}
+
+.h1ServN{
+  font-family: Quicksand;
+  font-size: 2vw;
+  margin-right: 4vw;
+  color: #FFF;
+  margin-bottom: 2vw;
+  padding: 0%;
+
+}
+
+.divAlign{
+  text-align: end;
+  padding: 0;
+  
+  
+}
+
+
+.rowServicios:after {
+    
+  content: "";
+  display: table;
+  clear: both;
+  text-align: center;
+}
+
+
+.columServDos{
+
+  float: left;
+  width: 70%;
+  height: 35vw;
+  text-align: center;
+  text-justify: inter-word;
+  background-color:#fff;
+
+}
+
+.columServUno{
+  float: left;
+  width: 30%;
+  height: 35vw;
+  text-align: initial;
+  text-justify: inter-word;
+  background-color:rgb(166, 41, 216);
+  padding: 0;
+
+
+}
+
+
+.pServ{
+  font-family: Montserrat, 'Courier New', Courier, monospace;
+  font-size: 1.2vw;
+  padding-top: 0%;
+  padding-left: 10%;
+  padding-right: 5%;
+  color: #FFF;
+}
+
+.columServBtn{
+
+  float: left;
+  width: 50%;
+  height: 30vw;
+  text-align: center;
+  text-justify: inter-word;
+  background-color:#fff;
+  margin-top: 2vw;
+
+}
+
+.imgServ{
+  height: 4vw;
+}
+
+.h1ServColum{
+  font-family: Quicksand;
+  font-size: 1.5vw;
+  color:rgb(166, 41, 216);
+}
+
+.justificar{
+  text-align: center;
+}
+
+
+.pServColum{
+  font-size: 1.1vw;
+  padding: 2%;
+  font-family: Montserrat;
+
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+html,
+body,
+.view {
+  height: 100vh;
+}
+
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100vh;
+  z-index: -1;
+}
+
+.carousel .carousel-inner {
+  height: 100vh;
+}
+
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active {
+  height: 100vh;
+}
+
+.video-fluid {
+    max-width: unset;
+    z-index: -1;
+}
+
+.carousel-caption{
+  z-index: -1;
+  margin-bottom: 12%;
+}
 
 
 
 }
+/*--------------------------------------------------------------------------------------------------------*/
 @media screen and (min-width:1024px) {
  
  
@@ -477,10 +775,36 @@
     float: left;
     width: 29.3%;
     height: 18vw;
-    text-align: center;
-    text-align: justify;
-    text-justify: inter-word;
+   
+  
+   
     background-color: rgb(243, 243, 243);
+  }
+
+  .columFort{
+    margin-top: 2%;
+    float: left;
+    width: 50%;
+    text-align: left;
+    z-index: 1;
+    
+  }
+
+ 
+  
+  .rowFort{
+  
+      width: 99%;
+  }
+  
+  .h1Fort{
+    font-family: Montserrat;
+    font-size: 1vw;
+   
+  }
+  
+  .iconFort{
+    color:rgb(166, 41, 216);
   }
   
   .columnMimi{
@@ -498,7 +822,7 @@
     margin-top: 2vw;
     margin-left: 10vw;
     max-width: 4vw;
-    min-width: 2vw;
+    
     float: left;
   }
   
@@ -532,7 +856,7 @@
   }
   
   .divValores{
-    height: 25vw;
+    height: 20vw;
     background-color: rgb(243, 243, 243);
   }
   
@@ -592,75 +916,6 @@
   }
 
   
-}
-
-.header{
-    
-    background-color: rgba(0, 0, 0, 0.411);
-   
-}
-  
-  /* Clear floats after the columns */
-  .row:after {
-    
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  
-
-  
-  
-
-.fondos{
-    background-image: url('../home/imagenes/imagen_principal.jpg');
-    height: 30vw;
-    
-    text-align: center;
-    
-    background-position: center center;
-}
-
-.imgLogoGrde{
-    z-index: -1;
-    margin-top: 10%;
-    width: 40vw;
-}
-
-
-.rowServicios:after {
-    
-  content: "";
-  display: table;
-  clear: both;
-  text-align: center;
-}
-
-
-.columServDos{
-
-  float: left;
-  width: 70%;
-  height: 35vw;
-  text-align: center;
-  text-justify: inter-word;
-  background-color:#fff;
-
-}
-
-.columServUno{
-  float: left;
-  width: 30%;
-  height: 35vw;
-  text-align: initial;
-  text-justify: inter-word;
-  background-color:rgb(166, 41, 216);
-  padding: 0;
-
-
-}
-
 .h1Serv{
   font-family: Quicksand;
   font-size: 2vw;
@@ -689,6 +944,40 @@
   
 }
 
+.rowServicios:after {
+    
+  content: "";
+  display: table;
+  clear: both;
+  text-align: center;
+}
+
+
+.columServDos{
+
+  float: left;
+  width: 70%;
+  height: 25vw;
+  margin-top: 5%;
+  text-align: center;
+  text-justify: inter-word;
+  background-color:#fff;
+
+}
+
+.columServUno{
+  float: left;
+  width: 30%;
+  height: 35vw;
+  text-align: initial;
+  text-justify: inter-word;
+  background-color:rgb(166, 41, 216);
+  padding: 0;
+
+
+}
+
+
 .pServ{
   font-family: Montserrat, 'Courier New', Courier, monospace;
   font-size: 1.2vw;
@@ -702,7 +991,7 @@
 
   float: left;
   width: 50%;
-  height: 30vw;
+  height: 25vw;
   text-align: center;
   text-justify: inter-word;
   background-color:#fff;
@@ -721,7 +1010,7 @@
 }
 
 .justificar{
-  text-align: justify;
+  text-align: center;
 }
 
 
@@ -730,16 +1019,6 @@
   padding: 2%;
   font-family: Montserrat;
 
-}
-
-.footer{
-  background-color:rgb(166, 41, 216);
-  
-}
-
-.imgFb{
-  width: 1.5vw;
-  margin-right: 7%;
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------*/
@@ -773,3 +1052,58 @@ body,
   z-index: -1;
   margin-bottom: 12%;
 }
+
+  
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.header{
+    
+    background-color: rgba(0, 0, 0, 0.411);
+   
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+
+  
+  
+
+.fondos{
+    background-image: url('../home/imagenes/imagen_principal.jpg');
+    height: 30vw;
+    
+    text-align: center;
+    
+    background-position: center center;
+}
+
+.imgLogoGrde{
+    z-index: -1;
+    margin-top: 50%;
+    width: 40vw;
+}
+
+
+
+
+.footer{
+  background-color:rgb(166, 41, 216);
+  
+}
+
+.imgFb{
+  width: 1.5vw;
+  margin-right: 7%;
+}
+
+
+

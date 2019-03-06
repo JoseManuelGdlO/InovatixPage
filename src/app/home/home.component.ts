@@ -1,10 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {ThemePalette} from '@angular/material/core';
+import {MatBottomSheet, MatBottomSheetRef} from '@angular/material';
+import { VermasComponent }from '../vermas/vermas.component';
+  import { from } from 'rxjs';
 
-export interface ChipColor {
-  name: string;
-  color: ThemePalette;
-}
 
 @Component({
   selector: 'app-home',
@@ -13,16 +11,16 @@ export interface ChipColor {
 })
 export class HomeComponent implements OnInit {
 
-  availableColors: ChipColor[] = [
-    {name: 'Administracion de proyectos', color: 'warn'},
-    {name: 'Tienda en Linea', color: 'primary'},
-    {name: 'Aplicaciones Moviles', color: 'primary'},
-    {name: 'Diseño y Registro de Marca', color: 'primary'}
-  ];
-
-  constructor() { }
+  
+  constructor(private bottomSheet: MatBottomSheet) { }
 
   ngOnInit() {
   }
 
+  abrirModal(): void {
+    this.bottomSheet.open(VermasComponent);
+  }
+  
+
 }
+

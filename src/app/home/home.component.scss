@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Montserrat|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,800,800i,900,900i');
 
 @media screen and (max-width:640px) {
 
@@ -153,7 +155,7 @@
 
 .pMis{
 
-  font-family: Quicksand;
+  font-family: 'Quicksand', sans-serif;
   font-size: 3vw;
   
   padding-right: 8vw;

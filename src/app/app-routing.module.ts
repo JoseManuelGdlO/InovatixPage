@@ -9,11 +9,11 @@ import { ContactanosComponent } from './contactanos/contactanos.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full'},
-  { path: 'contactanos', component: ContactanosComponent, pathMatch: 'full'},
-  { path: 'desarrollo', component: DesarrolloEmpresarialComponent, pathMatch: 'full'},
-  { path: 'proyectos', component: PrincipalesProyectosComponent, pathMatch: 'full'},
-  { path: 'marca', component: RegistroMarcaComponent, pathMatch: 'full'},
-  { path: 'tienda', component: TiendaLineaComponent, pathMatch: 'full'}
+  { path: 'contactanos', component: ContactanosComponent},
+  { path: 'desarrollo', component: DesarrolloEmpresarialComponent},
+  { path: 'proyectos', component: PrincipalesProyectosComponent},
+  { path: 'marca', component: RegistroMarcaComponent},
+  { path: 'tienda', component: TiendaLineaComponent}
 ];
 
 @NgModule({

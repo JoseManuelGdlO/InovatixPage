@@ -342,7 +342,7 @@
     background: #FFF;
     color: white;
     height: 9vw;
-    
+    z-index: 1;
     width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
     left: 0; /* Posicionamos la cabecera al lado izquierdo */
     top: 0; /* Posicionamos la cabecera pegada arriba */
@@ -412,6 +412,10 @@
   
 }
 
+b{
+  font-weight: bold;
+}
+
 .header{
     
     background-color: rgba(0, 0, 0, 0.411);
@@ -421,3 +425,91 @@
   width: 1.5vw;
   margin-right: 7%;
 }
+
+
+
+.divPasos{
+  background-image: url('./img/fondopasos.jpg');
+  height: 45vw;
+  background-size: 100%;
+  text-align: center;
+}
+
+
+.h1Pasos{
+
+  font-family: Quicksand;
+  color: #FFF;
+  font-size: 2vw;
+  padding-top: 5vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+
+}
+
+.h3Pasos{
+
+  font-family: Montserrat;
+  color: #fff;
+  font-size: 1.2vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 5vw;
+
+}
+
+
+.row:after {
+  content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+}
+
+.columnPasos{
+  width: 33.33%;
+  padding-bottom: 5vw;
+}
+
+.columPasos2{
+  float: left;
+  width: 22%;
+  text-align: center;
+  
+}
+
+.columPasos25{
+  float: left;
+  width: 72%;
+  text-align: center;
+  
+}
+
+.imgPasos{
+  height: 3vw;
+  width: 3vw;
+  margin-right: 1vw;
+}
+
+.h2Pasos{
+  font-family: Fredoka One;
+  font-size: 1vw;
+  color: #FFF;
+
+}
+
+.pPasos{
+  font-family: Montserrat;
+  font-size: 1vw;
+  color: #FFF;
+}
+
+.example-card {
+  max-width: 300px;
+  text-align: center;
+  background-color: #FFF;
+  height: 23vw;
+}
+
+
+

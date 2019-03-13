@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One|Montserrat|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
 
 @media screen and (max-width:640px) {
   .iconHeader{
@@ -37,6 +38,8 @@
     float: left;
     width: 50%;
   }
+
+  
 
 .colum2{
   display: none;
@@ -342,7 +345,7 @@
     background: #FFF;
     color: white;
     height: 9vw;
-    
+    z-index: 1;
     width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
     left: 0; /* Posicionamos la cabecera al lado izquierdo */
     top: 0; /* Posicionamos la cabecera pegada arriba */
@@ -420,4 +423,103 @@
 .imgFb{
   width: 1.5vw;
   margin-right: 7%;
+}
+
+.columTour{
+  text-align: center;
+  
+  width: 100%;
+}
+
+.h1Tour{
+  font-family: Montserrat;
+  color: rgb(105, 54, 126);
+  font-size: 3vw;
+  height: 2vw;
+}
+
+.pTour{
+  font-family: Montserrat;
+  color: #1d21ff;
+  font-size: 2vw;
+  margin-left: 20%;
+  height: 2vw;
+}
+
+.pDescubreTour{
+  padding-left: 30%;
+  padding-right: 20%;
+  font-family: Quicksand;
+}
+
+.pRecorridoTour{
+  font-family: Montserrat;
+  font-size: 1vw;
+  color: #000;
+  width: 100%;
+  
+}
+
+.imgTour{
+  height: 50vw;
+  padding-right: 50vw;
+}
+
+.cardClass{
+  width: 80%;
+  margin-left: 10vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.imgDisenoResp{
+  height: 40vw;
+  image-rendering: auto;
+}
+
+.columDisenoResp{
+  width: 100%;
+
+}
+
+.pDisenoResp{
+  font-size: 1.2vw;
+  padding-right: 5%;
+}
+
+.hDisenoResp{
+  color: rgb(105, 54, 126);
+  font-size: 2.3vw;
+}
+
+.imgCarrito{
+  height: 30vw;
+  image-rendering: auto;
+}
+
+.hCarrito{
+   color: rgb(105, 54, 126);
+  font-size: 2.3vw;
+}
+
+.pCarrito{
+  font-size: 1.2vw;
+  padding-left: 5%;
+}
+
+.hIngresos{
+  color: rgb(105, 54, 126);
+  font-size: 2.3vw;
+}
+
+.pIngresos{
+  font-size: 1.2vw;
+  padding-right: 5%;
+}
+
+
+.divProyectos{
+  background-image: url('./img/fondo-proyectos.png');
+  height: 80vw;
+  background-size: 100%;
 }

@@ -16,6 +16,7 @@ import { ContactanosComponent } from './contactanos/contactanos.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { VermasComponent } from './vermas/vermas.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

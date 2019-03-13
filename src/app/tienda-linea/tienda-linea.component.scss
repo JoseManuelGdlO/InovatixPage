@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
 
 @media screen and (max-width:640px) {
+
+  .dicMargin{
+    margin-top: 15%;
+  }
+
   .iconHeader{
     
     margin-left: 40%;
@@ -59,7 +64,7 @@
     background: #FFF;
     color: white;
     height: 15vw;
-    
+    z-index: 1;
     width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
     left: 0; /* Posicionamos la cabecera al lado izquierdo */
     top: 0; /* Posicionamos la cabecera pegada arriba */
@@ -151,7 +156,82 @@
   
 }
 
+.divTourMovil{
+  text-align: center;
+}
 
+.h1TourMovil{
+  color: rgb(105, 54, 126);
+  font-family: Fredoka One;
+  font-size: 3vw;
+}
+
+.h2TourMovil{
+
+  color: rgb(41, 38, 238);
+  font-family: Montserrat;
+  font-size: 2vw;
+
+}
+
+.columTour{
+  text-align: center;
+  
+  width: 100%;
+  
+}
+
+.h1Tour{
+  display: none;
+  font-family: Montserrat;
+  color: rgb(105, 54, 126);
+  font-size: 3vw;
+  height: 2vw;
+}
+
+.pTour{
+  display: none;
+  font-family: Montserrat;
+  color: #1d21ff;
+  font-size: 1.5vw;
+  margin-left: 20%;
+  height: 2vw;
+}
+
+.pDescubreTour{
+  display: none;
+  padding-left: 20%;
+  padding-right: 10%;
+  font-size: 1vw;
+  font-family: Quicksand;
+}
+
+.pRecorridoTour{
+  padding-top: 1vw;
+  font-family: Montserrat;
+  font-size: 1.5vw;
+  color: #000;
+  width: 100%;
+  
+}
+
+.btnComparAhora{
+  padding: 3vw;
+  font-size: 2vw;
+}
+
+.imgTour{
+  height: 50vw;
+  padding-right: 50vw;
+}
+
+
+
+.divProyectos{
+  background-image: url('./img/fondo-proyectos.png');
+  height: 190vw;
+  background-size: 250%;
+}
 
 
 
@@ -159,6 +239,10 @@
 }
 @media screen and (max-width:1024px) and (min-width:640px) {
   
+  .dicMargin{
+    margin-top: 12%;
+  }
+
   .iconHeader{
     display: none;
     margin-left: 40%;
@@ -213,7 +297,7 @@
     background: #FFF;
     color: white;
     height: 10vw;
-    
+    z-index: 1;
     width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
     left: 0; /* Posicionamos la cabecera al lado izquierdo */
     top: 0; /* Posicionamos la cabecera pegada arriba */
@@ -285,11 +369,69 @@
 }
 
 
+.columTour{
+  text-align: center;
+  
+  width: 100%;
+  
+}
+.divTourMovil{
+  display: none;
+}
+.h1Tour{
+  padding-top: 1vw;
+  font-family: Montserrat;
+  color: rgb(105, 54, 126);
+  font-size: 2vw;
+  height: 2vw;
+}
 
+.pTour{
+  font-family: Montserrat;
+  color: #1d21ff;
+  font-size: 1.5vw;
+  margin-left: 20%;
+  height: 2vw;
+}
+
+.pDescubreTour{
+  padding-left: 20%;
+  padding-right: 10%;
+  font-size: 1.5vw;
+  font-family: Quicksand;
+}
+
+.pRecorridoTour{
+  font-family: Montserrat;
+  font-size: 1.2vw;
+  color: #000;
+  width: 100%;
+  
+}
+
+.btnComparAhora{
+  padding: 1vw;
+  font-size: 1vw;
+}
+
+.imgTour{
+  height: 50vw;
+  padding-right: 50vw;
+}
+
+.divProyectos{
+  background-image: url('./img/fondo-proyectos.png');
+  height: 75vw;
+  background-size: 100%;
+}
 
 
 }
 @media screen and (min-width:1024px) {
+
+  .dicMargin{
+    margin-top: 10%;
+  }
  
  
   .iconHeader{
@@ -412,6 +554,56 @@
     display: none;
   }
 
+  .columTour{
+    text-align: center;
+    
+    width: 100%;
+  }
+
+  .divTourMovil{
+    display: none;
+  }
+  
+  .h1Tour{
+    font-family: Montserrat;
+    color: rgb(105, 54, 126);
+    font-size: 3vw;
+    height: 2vw;
+  }
+  
+  .pTour{
+    font-family: Montserrat;
+    color: #1d21ff;
+    font-size: 2vw;
+    margin-left: 20%;
+    height: 2vw;
+  }
+  
+  .pDescubreTour{
+    padding-left: 30%;
+    padding-right: 20%;
+    font-family: Quicksand;
+  }
+  
+  .pRecorridoTour{
+    font-family: Montserrat;
+    font-size: 1vw;
+    color: #000;
+    width: 100%;
+    
+  }
+  
+  .imgTour{
+    height: 50vw;
+    padding-right: 50vw;
+  }
+
+  .divProyectos{
+    background-image: url('./img/fondo-proyectos.png');
+    height: 45vw;
+    background-size: 100%;
+  }
+  
   
 }
 
@@ -425,45 +617,7 @@
   margin-right: 7%;
 }
 
-.columTour{
-  text-align: center;
-  
-  width: 100%;
-}
 
-.h1Tour{
-  font-family: Montserrat;
-  color: rgb(105, 54, 126);
-  font-size: 3vw;
-  height: 2vw;
-}
-
-.pTour{
-  font-family: Montserrat;
-  color: #1d21ff;
-  font-size: 2vw;
-  margin-left: 20%;
-  height: 2vw;
-}
-
-.pDescubreTour{
-  padding-left: 30%;
-  padding-right: 20%;
-  font-family: Quicksand;
-}
-
-.pRecorridoTour{
-  font-family: Montserrat;
-  font-size: 1vw;
-  color: #000;
-  width: 100%;
-  
-}
-
-.imgTour{
-  height: 50vw;
-  padding-right: 50vw;
-}
 
 .cardClass{
   width: 80%;
@@ -518,8 +672,3 @@
 }
 
 
-.divProyectos{
-  background-image: url('./img/fondo-proyectos.png');
-  height: 80vw;
-  background-size: 100%;
-}

@@ -56,7 +56,7 @@
     background: #FFF;
     color: white;
     height: 15vw;
-    
+    z-index: 1;
     width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
     left: 0; /* Posicionamos la cabecera al lado izquierdo */
     top: 0; /* Posicionamos la cabecera pegada arriba */
@@ -148,7 +148,99 @@
   
 }
 
+.divPasos{
+  background-image: url('./img/fondopasos.jpg');
+  height: 190vw;
+  margin-top: 13%;
+  background-size: 300%;
+  text-align: center;
+}
 
+
+.h1Pasos{
+
+  font-family: Quicksand;
+  color: #FFF;
+  font-size: 4vw;
+  padding-top: 5vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+
+}
+
+.h3Pasos{
+
+  font-family: Montserrat;
+  color: #fff;
+  font-size: 2vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 5vw;
+
+}
+
+
+.row:after {
+  content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+}
+
+.columnPasos{
+  width: 100%;
+  padding-bottom: 1vw;
+}
+
+.columPasos2{
+  float: left;
+  width: 22%;
+  text-align: center;
+  
+}
+
+.columPasos25{
+  float: left;
+  width: 72%;
+  text-align: center;
+  
+}
+
+.imgPasos{
+  height: 7vw;
+  width: 7vw;
+  margin-right: 1vw;
+}
+
+.h2Pasos{
+  font-family: Fredoka One;
+  font-size: 3vw;
+  color: #FFF;
+
+}
+
+.pPasos{
+  font-family: Montserrat;
+  font-size: 3vw;
+  color: #FFF;
+}
+
+
+
+.example-card {
+  max-width: 90%;
+  text-align: center;
+  background-color: rgb(236, 232, 255);
+  height: 70vw;
+}
+
+
+
+.columProducos{
+  width: 100%;
+  padding: 5vw;
+  text-align: center;
+}
 
 
 
@@ -210,7 +302,7 @@
     background: #FFF;
     color: white;
     height: 10vw;
-    
+    z-index: 1;
     width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
     left: 0; /* Posicionamos la cabecera al lado izquierdo */
     top: 0; /* Posicionamos la cabecera pegada arriba */
@@ -281,7 +373,98 @@
   margin-right: 15%;
 }
 
+.divPasos{
+  background-image: url('./img/fondopasos.jpg');
+  height: 110vw;
+  background-size: 170%;
+  text-align: center;
+}
 
+
+.h1Pasos{
+
+  font-family: Quicksand;
+  color: #FFF;
+  font-size: 3vw;
+  padding-top: 5vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+
+}
+
+.h3Pasos{
+
+  font-family: Montserrat;
+  color: #fff;
+  font-size: 2vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 5vw;
+
+}
+
+
+.row:after {
+  content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+}
+
+.columnPasos{
+  width: 100%;
+  padding-bottom: 1vw;
+}
+
+.columPasos2{
+  float: left;
+  width: 22%;
+  text-align: center;
+  
+}
+
+.columPasos25{
+  float: left;
+  width: 72%;
+  text-align: center;
+  
+}
+
+.imgPasos{
+  height: 5vw;
+  width: 5vw;
+  margin-right: 1vw;
+}
+
+.h2Pasos{
+  font-family: Fredoka One;
+  font-size: 2vw;
+  color: #FFF;
+
+}
+
+.pPasos{
+  font-family: Montserrat;
+  font-size: 2vw;
+  color: #FFF;
+}
+
+
+
+.example-card {
+  max-width: 90%;
+  text-align: center;
+  background-color: rgb(236, 232, 255);
+  height: 42vw;
+}
+
+
+
+.columProducos{
+  width: 100%;
+  padding: 5vw;
+  text-align: center;
+}
 
 
 
@@ -409,6 +592,93 @@
     display: none;
   }
 
+  .divPasos{
+    background-image: url('./img/fondopasos.jpg');
+    height: 45vw;
+    background-size: 100%;
+    text-align: center;
+  }
+  
+  
+  .h1Pasos{
+  
+    font-family: Quicksand;
+    color: #FFF;
+    font-size: 2vw;
+    padding-top: 5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  
+  }
+  
+  .h3Pasos{
+  
+    font-family: Montserrat;
+    color: #fff;
+    font-size: 1.2vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 5vw;
+  
+  }
+  
+  
+  .row:after {
+    content: "";
+      display: table;
+      clear: both;
+      text-align: center;
+  }
+  
+  .columnPasos{
+    width: 33.33%;
+    padding-bottom: 5vw;
+  }
+  
+  .columPasos2{
+    float: left;
+    width: 22%;
+    text-align: center;
+    
+  }
+  
+  .columPasos25{
+    float: left;
+    width: 72%;
+    text-align: center;
+    
+  }
+  
+  .imgPasos{
+    height: 3vw;
+    width: 3vw;
+    margin-right: 1vw;
+  }
+  
+  .h2Pasos{
+    font-family: Fredoka One;
+    font-size: 1vw;
+    color: #FFF;
+  
+  }
+  
+  .pPasos{
+    font-family: Montserrat;
+    font-size: 1vw;
+    color: #FFF;
+  }
+
+  .example-card {
+    max-width: 300px;
+    text-align: center;
+    background-color: #FFF;
+    height: 23vw;
+  }
+  
+  .columProducos{
+    width: 33.33%;
+  }
+
   
 }
 
@@ -428,88 +698,9 @@ b{
 
 
 
-.divPasos{
-  background-image: url('./img/fondopasos.jpg');
-  height: 45vw;
-  background-size: 100%;
-  text-align: center;
-}
 
 
-.h1Pasos{
 
-  font-family: Quicksand;
-  color: #FFF;
-  font-size: 2vw;
-  padding-top: 5vw;
-  padding-left: 10vw;
-  padding-right: 10vw;
-
-}
-
-.h3Pasos{
-
-  font-family: Montserrat;
-  color: #fff;
-  font-size: 1.2vw;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  padding-bottom: 5vw;
-
-}
-
-
-.row:after {
-  content: "";
-    display: table;
-    clear: both;
-    text-align: center;
-}
-
-.columnPasos{
-  width: 33.33%;
-  padding-bottom: 5vw;
-}
-
-.columPasos2{
-  float: left;
-  width: 22%;
-  text-align: center;
-  
-}
-
-.columPasos25{
-  float: left;
-  width: 72%;
-  text-align: center;
-  
-}
-
-.imgPasos{
-  height: 3vw;
-  width: 3vw;
-  margin-right: 1vw;
-}
-
-.h2Pasos{
-  font-family: Fredoka One;
-  font-size: 1vw;
-  color: #FFF;
-
-}
-
-.pPasos{
-  font-family: Montserrat;
-  font-size: 1vw;
-  color: #FFF;
-}
-
-.example-card {
-  max-width: 300px;
-  text-align: center;
-  background-color: #FFF;
-  height: 23vw;
-}
 
 
 

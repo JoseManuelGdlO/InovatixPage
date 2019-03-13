@@ -73,7 +73,43 @@
 
 </header>
 
-<div style="margin-top:14%;"></div>
+<div style="margin-top:9%;"></div>
+
+<!-- Default form contact -->
+<form class="text-center border border-light p-5">
+
+    <p style="color:#c9369c; font-family: Fredoka One;" class="h4 mb-4">Contactanos</p>
+  
+    <!-- Name -->
+    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Nombre Completo" required>
+  
+    <!-- Email -->
+    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="Correo Electronico" required>
+  
+    <!-- Subject -->
+    <label style="font-family: Montserrat; color:#c9369c;">Que producto te Interesa</label>
+    <select class="browser-default custom-select mb-4" required>
+      <option value="" disabled>Elije la Opcion</option>
+      <option value="1">Validacion de Marca</option>
+      <option value="2">Registro de Marca</option>
+      <option value="3">Diseño de Marca</option>
+      <option value="4">Tienda en Linea</option>
+      <option value="5">Apps moviles</option>
+    </select>
+  
+    <!-- Message -->
+    <div class="form-group">
+      <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Platicanos que de todo esto fue lo que te intereso" required></textarea>
+    </div>
+  
+  
+  
+    <!-- Send button -->
+    <button mdbBtn gradient="purple" rounded="true" mdbWavesEffect class="btn btn-info btn-block" type="submit">Enviar Informacion</button>
+  
+  </form>
+  <!-- Default form contact -->
+
 
  <!-- Footer -->
  <footer class="page-footer font-small unique-color-dark">

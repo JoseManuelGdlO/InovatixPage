@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Montserrat|Quicksand');
+
+@media screen and (max-width:640px) {
+  .iconHeader{
+    
+    margin-left: 40%;
+    color: rgb(105, 54, 126);
+    float: left;
+    display: none;
+    
+}
+
+.h1tel{
+   
+  display: none;
+    color: rgb(105, 54, 126);
+    font-family: Quicksand;
+    margin-left: 2%;
+    font-size: .7vw;
+   
+
+}
+
+.iconEmail{
+  display: none;
+  color: rgb(105, 54, 126);
+    float: left;
+    width: 20px;
+    
+    
+
+}
+
+.column {
+  display: none;
+    margin-top: 1vw;
+    float: left;
+    width: 50%;
+  }
+
+.colum2{
+  display: none;
+    float: left;
+    width: 31%;
+}
+
+
+  .row1:after {
+    
+    content: "";
+    display: none;
+    clear: both;
+  }
+
+  #main-header {
+    background: #FFF;
+    color: white;
+    height: 15vw;
+    
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+  }
+
+  .divSepara{
+    display: none;
+    height: 1px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5px;
+    background-color: rgb(105, 54, 126);
+}
+
+.columnMi{
+  float: left;
+  width: 100%;
+  height: 60vw;
+  text-align: justify;
+  
+  background-color: rgb(243, 243, 243);
+}
+
+.columnMimi{
+  text-align: justify;
+  float: left;
+  width: 100%;
+   height: 60vw;
+  
+  background-color: rgb(243, 243, 243);
+}
+
+
+
+.columMenu{
+  float: left;
+  width: 70%;
+  text-align: right;
+  margin-top: 1.5vw;
+}
+
+.columMenuLogo{
+  float: left;
+  width: 30%;
+  text-align: center;
+  
+}
+
+.btnMenu{
+  display: none;
+  color: #000;
+  width: 12vw;
+  height: 2.5vw;
+  font-size: .9vw;
+  font-family: Montserrat;
+
+}
+
+.btnMenuHome{
+  display: none;
+  height: 2.5vw;
+  color: #000;
+  width: 7vw;
+  font-size: 1vw;
+  font-family: Montserrat;
+
+}
+
+.btnMenuTienda{
+  display: none;
+  height: 2.5vw;
+  color: #000;
+  width: 12vw;
+  font-size: .9vw;
+  font-family: Montserrat; 
+}
+.btnMenuTec{
+  display: none;
+  height: 2.5vw;
+  color: #000;
+  width: 8vw;
+  font-size: .9vw;
+  font-family: Montserrat; 
+}
+
+.imgLogo{
+    height: 12vw;
+    margin-left: 1vw;
+    margin-top: .8vw;
+}
+
+
+
+.btnHamburger{
+  color: rgb(105, 54, 126);
+  margin-right: 10%;
+  
+}
+
+
+
+
+
+
+}
+@media screen and (max-width:1024px) and (min-width:640px) {
+  
+  .iconHeader{
+    display: none;
+    margin-left: 40%;
+    color: rgb(105, 54, 126);
+    float: left;
+    
+}
+
+.h1tel{
+   
+  display: none;
+    color: rgb(105, 54, 126);
+    font-family: Quicksand;
+    margin-left: 2%;
+    font-size: .7vw;
+   
+
+}
+
+.iconEmail{
+  display: none;
+  color: rgb(105, 54, 126);
+    float: left;
+    width: 20px;
+    
+    
+
+}
+
+.column {
+    margin-top: 1vw;
+    float: left;
+    width: 50%;
+    display: none;
+  }
+
+.colum2{
+    float: left;
+    width: 31%;
+    display: none;
+}
+
+
+  .row1:after {
+    
+    content: "";
+    display: none;
+    clear: both;
+  }
+
+  #main-header {
+    background: #FFF;
+    color: white;
+    height: 10vw;
+    
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+  }
+
+  .divSepara{
+    height: 1px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5px;
+    background-color: rgb(105, 54, 126);
+    display: none;
+}
+
+
+.columMenu{
+  float: left;
+  width: 70%;
+  text-align: right;
+  margin-top: 2vw;
+}
+
+.columMenuLogo{
+  float: left;
+  width: 30%;
+ 
+  
+}
+
+.btnMenu{
+  display: none;
+  color: #000;
+  width: 12vw;
+  height: 2.5vw;
+  font-size: .9vw;
+  font-family: Montserrat;
+
+}
+
+.btnMenuHome{
+  display: none;
+  height: 2.5vw;
+  color: #000;
+  width: 7vw;
+  font-size: 1vw;
+  font-family: Montserrat;
+
+}
+
+.btnMenuTienda{
+  display: none;
+  height: 2.5vw;
+  color: #000;
+  width: 12vw;
+  font-size: .9vw;
+  font-family: Montserrat; 
+}
+
+.btnMenuTec{
+  display: none;
+  height: 2.5vw;
+  color: #000;
+  width: 8vw;
+  font-size: .9vw;
+  font-family: Montserrat; 
+}
+.imgLogo{
+    height: 9vw;
+    margin-left: 1vw;
+    margin-top: .5vw;
+}
+
+
+.btnHamburger{
+  color: rgb(105, 54, 126);
+  margin-right: 15%;
+}
+
+
+
+
+
+}
+@media screen and (min-width:1024px) {
+ 
+ 
+  .iconHeader{
+    
+    margin-left: 60%;
+    color: rgb(105, 54, 126);
+    float: left;
+    
+}
+
+.h1tel{
+   
+    display: inline;
+    color: rgb(105, 54, 126);
+    font-family: Quicksand;
+    
+    font-size: .7vw;
+   
+
+}
+
+.iconEmail{
+  color: rgb(105, 54, 126);
+    float: left;
+    width: 20px;
+    margin-left: 28%;
+    
+    
+
+}
+
+.column {
+    margin-top: 1vw;
+    float: left;
+    text-align: right;
+    width: 50%;
+  }
+
+.colum2{
+    float: left;
+    width: 31%;
+}
+
+
+  .row1:after {
+    
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #main-header {
+    background: #FFF;
+    color: white;
+    height: 9vw;
+    
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+  }
+
+  .divSepara{
+    height: 1px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5px;
+    background-color: rgb(105, 54, 126);
+}
+
+
+  
+  .columMenu{
+    float: left;
+    width: 80%;
+    text-align: center;
+    margin-top: 1.5vw;
+  }
+
+  .columMenuLogo{
+    float: left;
+    width: 20%;
+    text-align: center;
+    
+  }
+
+  .btnMenu{
+
+    color: #000;
+    width: 12vw;
+    height: 2.5vw;
+    font-size: .9vw;
+    font-family: Montserrat;
+
+  }
+
+  .btnMenuHome{
+    height: 2.5vw;
+    color: #000;
+    width: 7vw;
+    font-size: 1vw;
+    font-family: Montserrat;
+  
+  }
+
+  .btnMenuTienda{
+    height: 2.5vw;
+    color: #000;
+    width: 12vw;
+    font-size: .9vw;
+    font-family: Montserrat; 
+  }
+
+  .btnMenuTec{
+    height: 2.5vw;
+    color: #000;
+    width: 8vw;
+    font-size: .9vw;
+    font-family: Montserrat; 
+  }
+  .imgLogo{
+      height: 4vw;
+      margin-left: 1vw;
+      margin-top: .5vw;
+  }
+
+  .divHamburgesa{
+    display: none;
+  }
+
+  
+}
+
+.header{
+    
+    background-color: rgba(0, 0, 0, 0.411);
+   
+}
+.imgFb{
+  width: 1.5vw;
+  margin-right: 7%;
+}

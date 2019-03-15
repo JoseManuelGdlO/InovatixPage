@@ -134,6 +134,15 @@
   font-size: .9vw;
   font-family: Montserrat; 
 }
+.btnMenuTec{
+  display: none;
+  height: 2.5vw;
+  color: #000;
+  width: 8vw;
+  font-size: .9vw;
+  font-family: Montserrat; 
+}
+
 .imgLogo{
     height: 12vw;
     margin-left: 1vw;
@@ -269,6 +278,15 @@
   font-size: .9vw;
   font-family: Montserrat; 
 }
+
+.btnMenuTec{
+  display: none;
+  height: 2.5vw;
+  color: #000;
+  width: 8vw;
+  font-size: .9vw;
+  font-family: Montserrat; 
+}
 .imgLogo{
     height: 9vw;
     margin-left: 1vw;
@@ -361,14 +379,14 @@
   
   .columMenu{
     float: left;
-    width: 70%;
+    width: 80%;
     text-align: center;
     margin-top: 1.5vw;
   }
 
   .columMenuLogo{
     float: left;
-    width: 30%;
+    width: 20%;
     text-align: center;
     
   }
@@ -399,6 +417,14 @@
     font-size: .9vw;
     font-family: Montserrat; 
   }
+
+  .btnMenuTec{
+    height: 2.5vw;
+    color: #000;
+    width: 8vw;
+    font-size: .9vw;
+    font-family: Montserrat; 
+  }
   .imgLogo{
       height: 4vw;
       margin-left: 1vw;
@@ -420,4 +446,22 @@
 .imgFb{
   width: 1.5vw;
   margin-right: 7%;
+}
+
+
+
+.divEmpresarial{
+  background-image: url('./img/fondo_principal.jpg');
+  height: 40vw;
+  background-position: center center;
+  background-size: auto;
+  text-align: center;
+}
+
+.h1Titulo{
+  font-family: Montserrat;
+  font-size: 4vw;
+  color: transparent;
+  padding-top: 30%;
+  -webkit-text-stroke: 2px rgb(105, 54, 126);
 }

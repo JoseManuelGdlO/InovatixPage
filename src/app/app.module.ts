@@ -15,6 +15,7 @@ import { ContactanosComponent } from './contactanos/contactanos.component';
 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { VermasComponent } from './vermas/vermas.component';
+import { TecnologiasComponent } from './tecnologias/tecnologias.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { VermasComponent } from './vermas/vermas.component';
     RegistroMarcaComponent,
     DesarrolloEmpresarialComponent,
     ContactanosComponent,
-    VermasComponent
+    VermasComponent,
+    TecnologiasComponent
   ],
   imports: [
     BrowserModule,

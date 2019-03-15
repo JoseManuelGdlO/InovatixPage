@@ -139,6 +139,16 @@
   font-size: .9vw;
   font-family: Montserrat; 
 }
+
+.btnMenuTec{
+  display: none;
+  height: 2.5vw;
+  color: #000;
+  width: 8vw;
+  font-size: .9vw;
+  font-family: Montserrat; 
+}
+
 .imgLogo{
     height: 12vw;
     margin-left: 1vw;
@@ -310,6 +320,16 @@
   font-size: .9vw;
   font-family: Montserrat; 
 }
+
+.btnMenuTec{
+  display: none;
+  height: 2.5vw;
+  color: #000;
+  width: 8vw;
+  font-size: .9vw;
+  font-family: Montserrat; 
+}
+
 .imgLogo{
     height: 9vw;
     margin-left: 1vw;
@@ -469,14 +489,14 @@ body,
   
   .columMenu{
     float: left;
-    width: 70%;
+    width: 80%;
     text-align: center;
     margin-top: 1.5vw;
   }
 
   .columMenuLogo{
     float: left;
-    width: 30%;
+    width: 20%;
     text-align: center;
     
   }
@@ -507,6 +527,15 @@ body,
     font-size: .9vw;
     font-family: Montserrat; 
   }
+
+  .btnMenuTec{
+    height: 2.5vw;
+    color: #FFF;
+    width: 8vw;
+    font-size: .9vw;
+    font-family: Montserrat; 
+  }
+
   .imgLogo{
       height: 4vw;
       margin-left: 1vw;

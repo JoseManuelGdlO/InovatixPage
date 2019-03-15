@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {MatBottomSheet, MatBottomSheetRef} from '@angular/material';
 import { VermasComponent }from '../vermas/vermas.component';
+import { ActivatedRoute } from '@angular/router';
   import { from } from 'rxjs';
 
 
@@ -12,9 +13,12 @@ import { VermasComponent }from '../vermas/vermas.component';
 export class HomeComponent implements OnInit {
 
   
-  constructor(private bottomSheet: MatBottomSheet) { }
+  constructor(private bottomSheet: MatBottomSheet, private rutaActiva: ActivatedRoute) { }
 
   ngOnInit() {
+
+    var component = this.rutaActiva.snapshot.params.id;
+    console.log(component);
   }
 
   abrirModal(): void {

@@ -41,7 +41,8 @@
             <button mat-button color="primary" routerLink="/tienda" class="btnMenuTienda">Tienda en Linea</button>
             <button mat-button color="primary" routerLink="/marca" class="btnMenu">Registro de Marca</button>
             <button mat-button color="primary" routerLink="/desarrollo" class="btnMenu">Desarrollo empresarial</button>
-            <button mat-button color="primary" routerLink="/contactanos" class="btnMenu">Contactanos</button>
+            <button mat-button color="primary" routerLink="/tecnologias" class="btnMenuTec">Tecnologias</button>
+            <button mat-button color="primary" routerLink="/contactanos" class="btnMenuTec">Contáctanos</button>
             <div class="divHamburgesa">
               <button class="btnHamburger" mat-icon-button [matMenuTriggerFor]="menu">
                 <mat-icon>menu</mat-icon>
@@ -62,8 +63,11 @@
                   <button routerLink="/desarrollo" mat-menu-item>
                       <span>Desarrollo Empresarial</span>
                     </button>
+                    <button routerLink="/tecnologias" mat-menu-item>
+                      <span>Tecnologias</span>
+                    </button>
                     <button routerLink="/contactanos" mat-menu-item disabled>
-                        <span>Contactanos</span>
+                        <span>Contáctanos</span>
                       </button>
               </mat-menu></div>
         </div>
@@ -78,18 +82,18 @@
 <!-- Default form contact -->
 <form class="text-center border border-light p-5">
 
-    <p style="color:#c9369c; font-family: Fredoka One;" class="h4 mb-4">Contactanos</p>
+    <p style="color:#c9369c; font-family: Fredoka One;" class="h4 mb-4">Contáctanos</p>
   
     <!-- Name -->
     <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Nombre Completo" required>
   
     <!-- Email -->
-    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="Correo Electronico" required>
+    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="Correo Electrónico" required>
   
     <!-- Subject -->
-    <label style="font-family: Montserrat; color:#c9369c;">Que producto te Interesa</label>
+    <label style="font-family: Montserrat; color:#c9369c;">¿Qué producto te Interesa?</label>
     <select class="browser-default custom-select mb-4" required>
-      <option value="" disabled>Elije la Opcion</option>
+      <option value="" disabled>Elije la Opción</option>
       <option value="1">Validacion de Marca</option>
       <option value="2">Registro de Marca</option>
       <option value="3">Diseño de Marca</option>
@@ -99,13 +103,13 @@
   
     <!-- Message -->
     <div class="form-group">
-      <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Platicanos que de todo esto fue lo que te intereso" required></textarea>
+      <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Platícanos que de todo esto fue lo que te interesó" required></textarea>
     </div>
   
   
   
     <!-- Send button -->
-    <button mdbBtn gradient="purple" rounded="true" mdbWavesEffect class="btn btn-info btn-block" type="submit">Enviar Informacion</button>
+    <button mdbBtn gradient="purple" rounded="true" mdbWavesEffect class="btn btn-info btn-block" type="submit">Enviar Información</button>
   
   </form>
   <!-- Default form contact -->
@@ -188,7 +192,7 @@
               <a routerLink="/desarrollo">Desarrollo Empresarial</a>
             </p>
             <p>
-                <a routerLink="/contactanos">Contactanos</a>
+                <a routerLink="/contactanos">Contáctanos</a>
               </p>
 
         </div>

@@ -48,7 +48,7 @@
   .row1:after {
     
     content: "";
-    display: none;
+    display: table;
     clear: both;
   }
 
@@ -56,7 +56,7 @@
     background: #FFF;
     color: white;
     height: 15vw;
-    
+    z-index: 1;
     width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
     left: 0; /* Posicionamos la cabecera al lado izquierdo */
     top: 0; /* Posicionamos la cabecera pegada arriba */
@@ -157,6 +157,10 @@
   
 }
 
+.divEscritorioTienda{
+  display: none;
+}
+
 
 
 
@@ -211,7 +215,7 @@
   .row1:after {
     
     content: "";
-    display: none;
+    display: table;
     clear: both;
   }
 
@@ -219,7 +223,7 @@
     background: #FFF;
     color: white;
     height: 10vw;
-    
+    z-index: 1;
     width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
     left: 0; /* Posicionamos la cabecera al lado izquierdo */
     top: 0; /* Posicionamos la cabecera pegada arriba */
@@ -299,8 +303,9 @@
   margin-right: 15%;
 }
 
-
-
+.divEscritorioTienda{
+  display: none;
+}
 
 
 }
@@ -360,7 +365,7 @@
     background: #FFF;
     color: white;
     height: 9vw;
-    
+    z-index: 1;
     width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
     left: 0; /* Posicionamos la cabecera al lado izquierdo */
     top: 0; /* Posicionamos la cabecera pegada arriba */
@@ -435,6 +440,11 @@
     display: none;
   }
 
+  .divMovileTienda{
+    display: none;
+  }
+  
+
   
 }
 
@@ -446,4 +456,79 @@
 .imgFb{
   width: 1.5vw;
   margin-right: 7%;
+}
+
+.columnTecno{
+  float: left;
+  width: 50%;
+  text-align: start;
+}
+
+.columnTecnoImg{
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+
+.h1Punt{
+  font-family: Quicksand;
+  font-size: 3vw;
+  color: rgb(105, 54, 126);
+}
+
+
+.imgTienOnl{
+  width: 100%;
+  
+}
+
+.h1Colums{
+
+  font-family: Quicksand;
+  font-size: 2vw; 
+  margin-top: 15vw;
+  padding-left: 10vw;
+  color: rgb(105, 54, 126);
+
+}
+
+
+
+.pColums{
+  padding-left: 10vw;
+  font-family: Montserrat;
+  font-size: 1vw; 
+  padding-right: 5vw;
+
+}
+
+.imgColums{
+  height: 30vw;
+}
+
+.divApps{
+  background-image: url('./img/fondo_apps.png');
+  height: 45vw;
+  background-size: 100%;
+  text-align: justify;
+}
+
+.h1Apps{
+
+  font-family: Quicksand;
+  font-size: 2vw; 
+  padding-top: 1vw;  
+  color: rgb(105, 54, 126);
+
+}
+
+
+
+.pApps{
+  font-family: Montserrat;
+  font-size: 1vw; 
+  padding-left: 10vw;
+  padding-right: 10vw;
+
 }

@@ -16,6 +16,7 @@ import { ContactanosComponent } from './contactanos/contactanos.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { VermasComponent } from './vermas/vermas.component';
 import { TecnologiasComponent } from './tecnologias/tecnologias.component';
+import { ParallaxDirective } from './parallax.directive';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { TecnologiasComponent } from './tecnologias/tecnologias.component';
     DesarrolloEmpresarialComponent,
     ContactanosComponent,
     VermasComponent,
-    TecnologiasComponent
+    TecnologiasComponent,
+    ParallaxDirective
   ],
   imports: [
     BrowserModule,

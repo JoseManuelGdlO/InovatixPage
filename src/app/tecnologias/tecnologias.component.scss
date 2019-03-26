@@ -161,6 +161,80 @@
   display: none;
 }
 
+.columnTecno{
+  float: left;
+  width: 100%;
+  text-align: start;
+}
+
+.columnTecnoImg{
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+
+.h1Punt{
+  font-family: Quicksand;
+  font-size: 5vw;
+  color: rgb(105, 54, 126);
+}
+
+
+.imgTienOnl{
+  width: 100%;
+  
+}
+
+.h1Colums{
+
+  font-family: Quicksand;
+  font-size: 4vw; 
+  margin-top: 15vw;
+  padding-left: 10vw;
+  color: rgb(105, 54, 126);
+
+}
+
+
+
+.pColums{
+  padding-left: 10vw;
+  font-family: Montserrat;
+  font-size: 3vw; 
+  padding-right: 5vw;
+
+}
+
+.imgColums{
+  height: 50vw;
+}
+
+.divApps{
+  background-image: url('./img/fondo_apps.png');
+  height: 110vw;
+  background-size: 190%;
+  text-align: justify;
+}
+
+.h1Apps{
+
+  font-family: Quicksand;
+  font-size: 4vw; 
+  padding-top: 1vw;  
+  color: rgb(105, 54, 126);
+
+}
+
+
+
+.pApps{
+  font-family: Montserrat;
+  font-size: 3vw; 
+  padding-left: 10vw;
+  padding-right: 10vw;
+
+}
 
 
 
@@ -308,6 +382,83 @@
 }
 
 
+.columnTecno{
+  float: left;
+  width: 100%;
+  text-align: start;
+}
+
+.columnTecnoImg{
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+
+.h1Punt{
+  font-family: Quicksand;
+  font-size: 5vw;
+  color: rgb(105, 54, 126);
+}
+
+
+.imgTienOnl{
+  width: 100%;
+  
+}
+
+.h1Colums{
+
+  font-family: Quicksand;
+  font-size: 4vw; 
+  margin-top: 15vw;
+  padding-left: 10vw;
+  color: rgb(105, 54, 126);
+
+}
+
+
+
+.pColums{
+  padding-left: 10vw;
+  font-family: Montserrat;
+  font-size: 3vw; 
+  padding-right: 5vw;
+
+}
+
+.imgColums{
+  height: 50vw;
+}
+
+.divApps{
+  background-image: url('./img/fondo_apps.png');
+  height: 110vw;
+  background-size: 190%;
+  text-align: justify;
+}
+
+.h1Apps{
+
+  font-family: Quicksand;
+  font-size: 4vw; 
+  padding-top: 1vw;  
+  color: rgb(105, 54, 126);
+
+}
+
+
+
+.pApps{
+  font-family: Montserrat;
+  font-size: 3vw; 
+  padding-left: 10vw;
+  padding-right: 10vw;
+
+}
+
+
+
 }
 @media screen and (min-width:1024px) {
  
@@ -443,6 +594,82 @@
   .divMovileTienda{
     display: none;
   }
+
+  .columnTecno{
+    float: left;
+    width: 50%;
+    text-align: start;
+  }
+  
+  .columnTecnoImg{
+    float: left;
+    width: 50%;
+    text-align: center;
+  }
+  
+  
+  .h1Punt{
+    font-family: Quicksand;
+    font-size: 3vw;
+    color: rgb(105, 54, 126);
+  }
+  
+  
+  .imgTienOnl{
+    width: 100%;
+    
+  }
+  
+  .h1Colums{
+  
+    font-family: Quicksand;
+    font-size: 2vw; 
+    margin-top: 15vw;
+    padding-left: 10vw;
+    color: rgb(105, 54, 126);
+  
+  }
+  
+  
+  
+  .pColums{
+    padding-left: 10vw;
+    font-family: Montserrat;
+    font-size: 1vw; 
+    padding-right: 5vw;
+  
+  }
+  
+  .imgColums{
+    height: 30vw;
+  }
+  
+  .divApps{
+    background-image: url('./img/fondo_apps.png');
+    height: 45vw;
+    background-size: 100%;
+    text-align: justify;
+  }
+  
+  .h1Apps{
+  
+    font-family: Quicksand;
+    font-size: 2vw; 
+    padding-top: 1vw;  
+    color: rgb(105, 54, 126);
+  
+  }
+  
+  
+  
+  .pApps{
+    font-family: Montserrat;
+    font-size: 1vw; 
+    padding-left: 10vw;
+    padding-right: 10vw;
+  
+  }
+  
   
 
   
@@ -458,77 +685,3 @@
   margin-right: 7%;
 }
 
-.columnTecno{
-  float: left;
-  width: 50%;
-  text-align: start;
-}
-
-.columnTecnoImg{
-  float: left;
-  width: 50%;
-  text-align: center;
-}
-
-
-.h1Punt{
-  font-family: Quicksand;
-  font-size: 3vw;
-  color: rgb(105, 54, 126);
-}
-
-
-.imgTienOnl{
-  width: 100%;
-  
-}
-
-.h1Colums{
-
-  font-family: Quicksand;
-  font-size: 2vw; 
-  margin-top: 15vw;
-  padding-left: 10vw;
-  color: rgb(105, 54, 126);
-
-}
-
-
-
-.pColums{
-  padding-left: 10vw;
-  font-family: Montserrat;
-  font-size: 1vw; 
-  padding-right: 5vw;
-
-}
-
-.imgColums{
-  height: 30vw;
-}
-
-.divApps{
-  background-image: url('./img/fondo_apps.png');
-  height: 45vw;
-  background-size: 100%;
-  text-align: justify;
-}
-
-.h1Apps{
-
-  font-family: Quicksand;
-  font-size: 2vw; 
-  padding-top: 1vw;  
-  color: rgb(105, 54, 126);
-
-}
-
-
-
-.pApps{
-  font-family: Montserrat;
-  font-size: 1vw; 
-  padding-left: 10vw;
-  padding-right: 10vw;
-
-}

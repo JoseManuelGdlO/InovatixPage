@@ -49,7 +49,7 @@
   .row1:after {
     
     content: "";
-    display: none;
+    display: table;
     clear: both;
   }
 
@@ -158,6 +158,77 @@
   
 }
 
+.divEmpresarial{
+ 
+  text-align: center;  
+}
+
+.divParallax{
+
+  background-image: url('./img/fondo_principal.jpg');
+  height: 120vw;
+  background-size: 100%;
+  text-align: center;
+  position: fixed;
+  background-size: 200%;
+  z-index: -1;
+
+  width: 100%;
+}
+
+.h2SubtituloEmp{
+font-family: Pacifico;
+color: #00b1dd;
+font-size: 3vw;
+height: 25vw;
+padding-bottom: 1vw;
+padding-top: 50%;
+}
+
+.h1TituloEmp{
+font-family: Montserrat;
+font-size: 5vw;
+color: #FFF;
+}
+
+.divDesarrollo{
+width: 100%;
+float: left;
+}
+
+.h1Desarrollo{
+font-family: Lilita One;
+font-size: 3vw;
+color: rgb(105, 54, 126);
+}
+
+.pCard{
+font-family: Montserrat;
+font-size: 2vw;
+color: #000;
+}
+.example-card{
+text-align: justify;
+height: 42vw;
+}
+
+.example-card2{
+text-align: justify;
+height: 47vw;
+}
+
+.example-card3{
+text-align: justify;
+height: 50vw;
+}
+
+.divFondoDos{
+width: auto;
+background-image: url('./img/fondo_dos.jpg');
+background-repeat: repeat-y;
+margin-top: 80vw;
+
+}
 
 
 
@@ -212,7 +283,7 @@
   .row1:after {
     
     content: "";
-    display: none;
+    display: table;
     clear: both;
   }
 
@@ -299,6 +370,79 @@
   color: rgb(105, 54, 126);
   margin-right: 15%;
 }
+
+.divEmpresarial{
+ 
+  text-align: center;  
+}
+
+.divParallax{
+
+  background-image: url('./img/fondo_principal.jpg');
+  height: 80vw;
+  background-size: 100%;
+  text-align: center;
+  position: fixed;
+  background-size: 200%;
+  z-index: -1;
+
+  width: 100%;
+}
+
+.h2SubtituloEmp{
+font-family: Pacifico;
+color: #00b1dd;
+font-size: 2vw;
+height: 25vw;
+padding-bottom: 1vw;
+padding-top: 30%;
+}
+
+.h1TituloEmp{
+font-family: Montserrat;
+font-size: 4vw;
+color: #FFF;
+}
+
+.divDesarrollo{
+width: 100%;
+float: left;
+}
+
+.h1Desarrollo{
+font-family: Lilita One;
+font-size: 3vw;
+color: rgb(105, 54, 126);
+}
+
+.pCard{
+font-family: Montserrat;
+font-size: 2vw;
+color: #000;
+}
+.example-card{
+text-align: justify;
+height: 40vw;
+}
+
+.example-card2{
+text-align: justify;
+height: 42vw;
+}
+
+.example-card3{
+text-align: justify;
+height: 45vw;
+}
+
+.divFondoDos{
+width: auto;
+background-image: url('./img/fondo_dos.jpg');
+background-repeat: repeat-y;
+margin-top: 33vw;
+
+}
+
 
 
 
@@ -436,27 +580,22 @@
     display: none;
   }
 
+  .divEmpresarial{
+ 
+    text-align: center;  
+}
+
+.divParallax{
+
+    background-image: url('./img/fondo_principal.jpg');
+    height: 50vw;
+    background-size: 100%;
+    text-align: center;
+    position: fixed;
+    background-size: 200%;
+    z-index: -1;
   
-}
-
-.header{
-    
-    background-color: rgba(0, 0, 0, 0.411);
-   
-}
-.imgFb{
-  width: 1.5vw;
-  margin-right: 7%;
-}
-
-
-
-.divEmpresarial{
-  background-image: url('./img/fondo_principal.jpg');
-  height: 41vw;
-  background-position: center center;
-  background-size: auto;
-  text-align: center;
+    width: 100%;
 }
 
 .h2SubtituloEmp{
@@ -473,3 +612,59 @@
   font-size: 4vw;
   color: #FFF;
 }
+
+.divDesarrollo{
+  width: 50%;
+  float: left;
+}
+
+.h1Desarrollo{
+  font-family: Lilita One;
+  font-size: 2vw;
+  color: rgb(105, 54, 126);
+}
+
+.pCard{
+  font-family: Montserrat;
+  font-size: 1vw;
+  color: #000;
+}
+.example-card{
+  text-align: justify;
+  height: 20vw;
+}
+
+.example-card2{
+  text-align: justify;
+  height: 22vw;
+}
+
+.example-card3{
+  text-align: justify;
+  height: 25vw;
+}
+
+.divFondoDos{
+  width: auto;
+  background-image: url('./img/fondo_dos.jpg');
+  margin-top: 15vw;
+  
+}
+
+
+
+  
+}
+
+.header{
+    
+    background-color: rgba(0, 0, 0, 0.411);
+   
+}
+.imgFb{
+  width: 1.5vw;
+  margin-right: 7%;
+}
+
+
+

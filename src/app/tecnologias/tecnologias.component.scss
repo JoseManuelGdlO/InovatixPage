@@ -212,7 +212,7 @@
 
 .divApps{
   background-image: url('./img/fondo_apps.png');
-  height: 110vw;
+  height: 140vw;
   background-size: 190%;
   text-align: justify;
 }
@@ -220,8 +220,8 @@
 .h1Apps{
 
   font-family: Quicksand;
-  font-size: 4vw; 
-  padding-top: 1vw;  
+  font-size: 9vw; 
+  padding-top: 5vw;  
   color: rgb(105, 54, 126);
 
 }
@@ -233,10 +233,15 @@
   font-size: 3vw; 
   padding-left: 10vw;
   padding-right: 10vw;
+  color: #FFF;
 
 }
 
 
+.imgOferta{
+  height: 28vw;
+ 
+}
 
 
 
@@ -457,6 +462,12 @@
 
 }
 
+.imgOferta{
+  height: 20vw;
+ 
+}
+
+
 
 
 }
@@ -670,6 +681,10 @@
   
   }
   
+  .imgOferta{
+    height: 9vw;
+   
+  }
   
 
   
@@ -684,4 +699,5 @@
   width: 1.5vw;
   margin-right: 7%;
 }
+
 

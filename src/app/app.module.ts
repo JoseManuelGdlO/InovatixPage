@@ -12,11 +12,13 @@ import { TiendaLineaComponent } from './tienda-linea/tienda-linea.component';
 import { RegistroMarcaComponent } from './registro-marca/registro-marca.component';
 import { DesarrolloEmpresarialComponent } from './desarrollo-empresarial/desarrollo-empresarial.component';
 import { ContactanosComponent } from './contactanos/contactanos.component';
+import { HttpClientModule } from '@angular/common/http';
 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { VermasComponent } from './vermas/vermas.component';
 import { TecnologiasComponent } from './tecnologias/tecnologias.component';
 import { ParallaxDirective } from './parallax.directive';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -31,13 +33,17 @@ import { ParallaxDirective } from './parallax.directive';
     VermasComponent,
     TecnologiasComponent,
     ParallaxDirective
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    MDBBootstrapModule.forRoot()
+    MDBBootstrapModule.forRoot(),
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   entryComponents: [VermasComponent],
   providers: [],

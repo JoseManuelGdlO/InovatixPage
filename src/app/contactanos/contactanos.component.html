@@ -92,36 +92,36 @@
 
   
     <!-- Name -->
-    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Nombre Completo" required>
+    <input type="text" id="defaultContactFormNombre" class="form-control mb-4" [(ngModel)]="name" name="name" placeholder="Nombre Completo" required>
 
     <!-- Name -->
-    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Nombre de la Empresa" required>
+    <input type="text" id="defaultContactFormEmpresa" class="form-control mb-4" [(ngModel)]="empresa" name="empresa" placeholder="Nombre de la Empresa" required>
     <!-- Name -->
-    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Telefono" required>
+    <input type="text" id="defaultContactFormTelefono" class="form-control mb-4" [(ngModel)]="telefono" name="telefono" placeholder="Telefono" required>
   
     <!-- Email -->
-    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="Correo Electrónico" required>
+    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" [(ngModel)]="email" name="email" placeholder="Correo Electrónico" required>
   
     <!-- Subject -->
     <label style="font-family: Montserrat; color:#c9369c;">¿Qué producto te Interesa?</label>
-    <select class="browser-default custom-select mb-4" required>
+    <select class="browser-default custom-select mb-4" [(ngModel)]="producto" name="producto" required>
       <option value="" disabled>Elije la Opción</option>
-      <option value="1">Validacion de Marca</option>
-      <option value="2">Registro de Marca</option>
-      <option value="3">Diseño de Marca</option>
-      <option value="4">Tienda en Linea</option>
-      <option value="5">Apps moviles</option>
+      <option value="Validacion de Marca">Validacion de Marca</option>
+      <option value="Registro de Marca">Registro de Marca</option>
+      <option value="Diseño de Marca">Diseño de Marca</option>
+      <option value="Tienda en Linea">Tienda en Linea</option>
+      <option value="Apps moviles">Apps moviles</option>
     </select>
   
     <!-- Message -->
     <div class="form-group">
-      <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Platícanos que de todo esto fue lo que te interesó" required></textarea>
+      <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" [(ngModel)]="mensaje" name="mensaje" rows="3" placeholder="Platícanos que de todo esto fue lo que te interesó" required></textarea>
     </div>
   
   
   
     <!-- Send button -->
-    <button mdbBtn gradient="purple" rounded="true" mdbWavesEffect class="btn btn-info btn-block" type="submit">Enviar Información</button>
+    <button mdbBtn gradient="purple" rounded="true" mdbWavesEffect class="btn btn-info btn-block" type="submit" (click)="onSubmit()">Enviar Información</button>
   
   </form>
   <!-- Default form contact -->

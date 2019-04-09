@@ -36,12 +36,12 @@
         </div>
         <div class="columMenu">
 
-            <button mat-button color="primary" routerLink="" class="btnMenuHome">Home</button>
-            <button mat-button color="primary" routerLink="/proyectos" class="btnMenu">Principales Proyectos</button>
+            <button mat-button color="primary" routerLink="" class="btnMenuHome" style="font-weight: bold;">Productos</button>
             <button mat-button color="primary" routerLink="/tienda" class="btnMenuTienda">Tienda en Linea</button>
             <button mat-button color="primary" routerLink="/marca" class="btnMenu">Registro de Marca</button>
             <button mat-button color="primary" routerLink="/desarrollo" class="btnMenu">Desarrollo empresarial</button>
             <button mat-button color="primary" routerLink="/tecnologias" class="btnMenuTec">Tecnologias</button>
+            <button mat-button color="primary" routerLink="/proyectos" class="btnMenu">Principales Proyectos</button>
             <button mat-button color="primary" routerLink="/contactanos" class="btnMenuTec">Contáctanos</button>
             <div class="divHamburgesa">
               <button class="btnHamburger" mat-icon-button [matMenuTriggerFor]="menu">
@@ -49,7 +49,7 @@
               </button>
               <mat-menu #menu="matMenu">
                 <button routerLink="" mat-menu-item >
-                  <span>Home</span>
+                  <span>Productos</span>
                 </button>
                 <button routerLink="/proyectos" mat-menu-item >
                   <span>Principales Proyectos</span>
@@ -121,11 +121,43 @@
   
   
     <!-- Send button -->
-    <button mdbBtn gradient="purple" rounded="true" mdbWavesEffect class="btn btn-info btn-block" type="submit" (click)="onSubmit()">Enviar Información</button>
+    <button mdbBtn gradient="purple" rounded="true" mdbWavesEffect class="btn btn-info btn-block" type="submit" data-toggle="modal" data-target="#basicExample" (click)="onSubmit()" (click)="frame.show()">Enviar Información</button>
   
   </form>
-  <!-- Default form contact -->
+  <!-- Default form contact  -->
 
+  
+
+<div mdbModal #frame="mdbModal" class="modal fade top" id="frameModalTop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-notify modal-info" role="document">
+    <!--Content-->
+    <div class="modal-content">
+      <!--Header-->
+      <div class="modal-header">
+        <p class="heading lead">Informacion Enviada</p>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="frame.hide()">
+          <span aria-hidden="true" class="white-text">&times;</span>
+        </button>
+      </div>
+
+      <!--Body-->
+      <div class="modal-body">
+        <div class="text-center">
+          <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+          <p>la informacion que haz proporcionado ha sido enviada espera nuestra llamada Gracias</p>
+        </div>
+      </div>
+
+      <!--Footer-->
+      <div class="modal-footer justify-content-center">
+        <a type="button" mdbBtn color="primary" outline="true" class="waves-effect" mdbWavesEffect (click)="frame.hide()">Cerrar</a>
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
 
  <!-- Footer -->
  <footer class="page-footer font-small unique-color-dark">

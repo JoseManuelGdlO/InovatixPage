@@ -82,7 +82,7 @@
 .columnMi{
   float: left;
   width: 100%;
-  height: 70vw;
+  height: 80vw;
   text-align: justify;
   
   background-color: rgb(243, 243, 243);
@@ -123,9 +123,9 @@
 
 .imgMis{
   margin-top: 2vw;
-  margin-left: 40vw;
+ 
   
-  height: 15vw;
+  height: 20vw;
 
 }
 
@@ -146,7 +146,6 @@
   font-family: Montserrat;
   font-size-adjust: inherit;
   font-size: 5vw;
-  margin-left: 40vw;
   
  
   color: rgb(105, 54, 126);
@@ -166,6 +165,14 @@
 .divValores{
   height: 60vw;
   background-color: rgb(243, 243, 243);
+}
+
+.h1NuestrosProductos{
+  font-size:9vw; 
+  font-family: Montserrat; 
+  color: rgb(105, 54, 126);
+  text-decoration-style: solid; 
+  padding: 2vw;  
 }
 
 .rowMi{
@@ -283,7 +290,8 @@
   height: 120vw;
   text-align: center;
   text-justify: inter-word;
-  background-color:#fff;
+  background-position: center;
+  background-image: url('./imagenes/profecionales.jpg');
 
 }
 
@@ -292,7 +300,7 @@
 .columServUno{
   float: left;
   width: 100%;
-  height: 33vw;
+  height: 40vw;
   text-align: initial;
   text-justify: inter-word;
   background-color:rgb(166, 41, 216);
@@ -304,7 +312,7 @@
 
 .pServ{
   font-family: Montserrat, 'Courier New', Courier, monospace;
-  font-size: 2vw;
+  font-size: 2.5vw;
   padding-top: 0%;
   padding-left: 10%;
   padding-right: 5%;
@@ -345,6 +353,113 @@
 
 }
 
+
+
+
+.columTour{
+  text-align: center;
+  
+  width: 100%;
+}
+
+.divTourMovil{
+  display: none;
+}
+
+.h1Tour{
+  font-family: Montserrat;
+  color: rgb(105, 54, 126);
+  font-size: 8vw;
+  height: 6vw;
+}
+
+.pTour{
+  font-family: Montserrat;
+  color: #1d21ff;
+  font-size: 5vw;
+  margin-left: 30%;
+  height: 2vw;
+}
+
+.pDescubreTour{
+  padding-left: 30%;
+  padding-right: 20%;
+  font-family: Quicksand;
+}
+
+.pRecorridoTour{
+  font-family: Montserrat;
+  font-size: 3vw;
+  color: #000;
+  width: 100%;
+  
+}
+
+.imgTour{
+  width: 45vw;
+  
+}
+
+.columnTecno{
+  float: left;
+  width: 100%;
+  text-align: start;
+  background-image: url('./imagenes/fondo_apps.png');
+  background-position-y: top;
+  background-position-x: center;
+}
+
+.columnTecnoImg{
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+
+.h1Punt{
+  font-family: Quicksand;
+  font-size: 3vw;
+  color: rgb(105, 54, 126);
+}
+
+
+.imgTienOnl{
+  width: 100%;
+  
+}
+.h1Colums{
+  
+  font-family: Quicksand;
+  font-size: 2vw; 
+  margin-top: 15vw;
+  padding-left: 10vw;
+  color: rgb(105, 54, 126);
+
+}
+
+
+
+.pColums{
+  padding-left: 10vw;
+  font-family: Montserrat;
+  font-size: 2.5vw; 
+  padding-right: 5vw;
+
+}
+
+.imgColums{
+  height: 60vw;
+}
+
+.imgOferta{
+  height: 25vw;
+  margin-top: 6vw;
+ 
+}
+
+.divColumanasTiendaPunto{
+  display: none;
+}
 
 
 }
@@ -425,8 +540,8 @@
 
 .columnMi{
   float: left;
-  width: 50%;
-  height: 35vw;
+  width: 100%;
+  height: 45vw;
 
   text-align: center;
   background-color: rgb(243, 243, 243);
@@ -467,7 +582,7 @@
 .imgMis{
   margin-top: 2vw;
   
-  height: 8vw;
+  height: 10vw;
 
 }
 
@@ -496,7 +611,7 @@
 
 .pMis{
   font-family: Quicksand;
-  font-size: 1.6vw;
+  font-size: 2vw;
   padding-top: 1vw;
   padding-right: 8vw;
   padding-left: 8vw;
@@ -506,6 +621,14 @@
 .divValores{
   height: 70vw;
   background-color: rgb(243, 243, 243);
+}
+
+.h1NuestrosProductos{
+  font-size:5vw; 
+  font-family: Montserrat; 
+  color: rgb(105, 54, 126);
+  text-decoration-style: solid; 
+  padding: 1vw;  
 }
 
 .rowMi{
@@ -621,7 +744,9 @@
   height: 35vw;
   text-align: center;
   text-justify: inter-word;
-  background-color:#fff;
+  background-position: center;
+  background-image: url('./imagenes/profecionales.jpg');
+
 
 }
 
@@ -713,6 +838,115 @@ body,
   margin-bottom: 12%;
 }
 
+
+.divUltimo{   
+  background-image: url('./imagenes/fondo_apps.png');
+  background-position-x: center;
+  background-position-y: top;
+  background-size: 120vw;
+  height: 20vw;
+}
+.columTour{
+  text-align: center;
+  
+  width: 100%;
+}
+
+.divTourMovil{
+  display: none;
+}
+
+.h1Tour{
+  font-family: Montserrat;
+  color: rgb(105, 54, 126);
+  font-size: 3vw;
+  height: 2vw;
+}
+
+.pTour{
+  font-family: Montserrat;
+  color: #1d21ff;
+  font-size: 2vw;
+  margin-left: 20%;
+  height: 2vw;
+}
+
+.pDescubreTour{
+  padding-left: 30%;
+  padding-right: 20%;
+  font-family: Quicksand;
+}
+
+.pRecorridoTour{
+  font-family: Montserrat;
+  font-size: 1vw;
+  color: #000;
+  width: 100%;
+  
+}
+
+.imgTour{
+  width: 25vw;
+  
+}
+
+.columnTecno{
+  float: left;
+  width: 50%;
+  text-align: start;
+}
+
+.columnTecnoImg{
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+
+.h1Punt{
+  font-family: Quicksand;
+  font-size: 3vw;
+  color: rgb(105, 54, 126);
+}
+
+
+.imgTienOnl{
+  width: 100%;
+  
+}
+.h1Colums{
+  
+  font-family: Quicksand;
+  font-size: 2vw; 
+  margin-top: 15vw;
+  padding-left: 10vw;
+  color: rgb(105, 54, 126);
+
+}
+
+
+
+.pColums{
+  padding-left: 10vw;
+  font-family: Montserrat;
+  font-size: 1vw; 
+  padding-right: 5vw;
+
+}
+
+.imgColums{
+  height: 30vw;
+}
+
+.imgOferta{
+  height: 9vw;
+  margin-top: 6vw;
+ 
+}
+
+.divColumanasTiendaPuntoMovil{
+  display: none;
+}
 
 
 }
@@ -880,6 +1114,14 @@ body,
   .divValores{
     height: 20vw;
     background-color: rgb(243, 243, 243);
+  }
+
+  .h1NuestrosProductos{
+    font-size:4vw; 
+    font-family: Montserrat; 
+    color: rgb(105, 54, 126);
+    text-decoration-style: solid; 
+    padding: 1vw;  
   }
 
   
@@ -1184,12 +1426,14 @@ body,
  
 }
 
-.divUltimo{
+.divUltimo{   
   background-image: url('./imagenes/fondo_apps.png');
   height: 20vw;
 }
 
-
+.divColumanasTiendaPuntoMovil{
+  display: none;
+}
   
 }
 
@@ -1243,7 +1487,7 @@ body,
 
 .imgFb{
   width: 1.5vw;
-  margin-right: 7%;
+  margin-right: 2%;
 }
 
 

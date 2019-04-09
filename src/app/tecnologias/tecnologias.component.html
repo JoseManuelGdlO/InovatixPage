@@ -36,12 +36,12 @@
         </div>
         <div class="columMenu">
 
-            <button mat-button color="primary" routerLink="" class="btnMenuHome">Home</button>
-            <button mat-button color="primary" routerLink="/proyectos" class="btnMenu">Principales Proyectos</button>
+            <button mat-button color="primary" routerLink="" class="btnMenuHome" style="font-weight: bold;">Productos</button>
             <button mat-button color="primary" routerLink="/tienda" class="btnMenuTienda">Tienda en Linea</button>
             <button mat-button color="primary" routerLink="/marca" class="btnMenu">Registro de Marca</button>
             <button mat-button color="primary" routerLink="/desarrollo" class="btnMenu">Desarrollo empresarial</button>
             <button mat-button color="primary" routerLink="/tecnologias" class="btnMenuTec">Tecnologias</button>
+            <button mat-button color="primary" routerLink="/proyectos" class="btnMenu">Principales Proyectos</button>
             <button mat-button color="primary" routerLink="/contactanos" class="btnMenuTec">Contáctanos</button>
             <div class="divHamburgesa">
               <button class="btnHamburger" mat-icon-button [matMenuTriggerFor]="menu">
@@ -49,7 +49,7 @@
               </button>
               <mat-menu #menu="matMenu">
                 <button routerLink="" mat-menu-item >
-                  <span>Home</span>
+                  <span>Productos</span>
                 </button>
                 <button routerLink="/proyectos" mat-menu-item >
                   <span>Principales Proyectos</span>

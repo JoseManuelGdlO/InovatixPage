@@ -13,7 +13,7 @@ export class CorreoService {
   envioCorreo(nombre:string, empresa:string, telefono:string, email:string, producto:string, mensaje:string){
 
    
-    var url = 'http://pruebas.mercapymex.com/correo.php?nombre='+nombre+'&empresa='+empresa+'&telefono='+telefono+'&email='+email+'&producto='+producto+'&mensaje='+mensaje;
+    var url = 'http://pruebas.mercapymex.com/envioCorreo/inicio.php?nombre='+nombre+'&empresa='+empresa+'&telefono='+telefono+'&email='+email+'&producto='+producto+'&mensaje='+mensaje;
     return new Promise((resolve, reject) => {
      this.http.get(url)
         .subscribe(data => {

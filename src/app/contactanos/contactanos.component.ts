@@ -43,6 +43,13 @@ export class ContactanosComponent implements OnInit {
        
       }
     );
+
+    this.name="";
+    this.empresa="";
+    this.telefono="";
+    this.email="";
+    this.producto="";
+    this.mensaje="";
   }
 
 }

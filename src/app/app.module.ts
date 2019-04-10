@@ -34,8 +34,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ContactanosComponent,
     VermasComponent,
     TecnologiasComponent,
-    ParallaxDirective
-    
+    ParallaxDirective  
   ],
   imports: [
     BrowserModule,

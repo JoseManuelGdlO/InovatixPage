@@ -1223,8 +1223,11 @@ body,
   content: "";
   display: table;
   clear: both;
+ 
   text-align: center;
 }
+
+
 
 
 .columServDos{
@@ -1234,7 +1237,9 @@ body,
   height: 35vw;
   text-align: center;
   text-justify: inter-word;
-  background-image: url('./imagenes/profecionales.jpg');
+  z-index: -1;
+  padding: 0;
+  
 
 }
 
@@ -1433,6 +1438,8 @@ body,
 
 .divColumanasTiendaPuntoMovil{
   display: none;
+  background-color: #fff;
+  z-index: 1;
 }
   
 }
@@ -1488,6 +1495,19 @@ body,
 .imgFb{
   width: 1.5vw;
   margin-right: 2%;
+}
+
+
+.divParallax{
+
+  background-image: url('./imagenes/profecionales.jpg');
+  height: 50vw;
+  background-size: 100%;
+  text-align: center;
+  position: fixed;
+  margin-top: 60%;
+  z-index: -1;
+  width: 70%;
 }
 
 

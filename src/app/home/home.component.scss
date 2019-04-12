@@ -287,12 +287,18 @@
 
   float: left;
   width: 100%;
-  height: 120vw;
+  height: 100vw;
   text-align: center;
   text-justify: inter-word;
   background-position: center;
   background-image: url('./imagenes/profecionales.jpg');
 
+}
+
+
+.divParallax{
+
+  display: none;
 }
 
 
@@ -702,7 +708,7 @@
 .h1Serv{
   font-family: Quicksand;
   font-size: 2vw;
-  padding-top: 15%;
+  padding-top: 55%;
   padding-bottom: 0;
   margin-left: 10%; 
   height:30%;
@@ -741,7 +747,7 @@
 
   float: left;
   width: 70%;
-  height: 35vw;
+  height: 70vw;
   text-align: center;
   text-justify: inter-word;
   background-position: center;
@@ -750,10 +756,17 @@
 
 }
 
+
+.divParallax{
+
+  display: none;
+}
+
+
 .columServUno{
   float: left;
   width: 30%;
-  height: 35vw;
+  height: 70vw;
   text-align: initial;
   text-justify: inter-word;
   background-color:rgb(166, 41, 216);
@@ -1243,6 +1256,20 @@ body,
 
 }
 
+
+.divParallax{
+
+  background-image: url('./imagenes/profecionales.jpg');
+  height: 50vw;
+  background-size: 100%;
+  text-align: center;
+  position: fixed;
+  margin-top: 60%;
+  z-index: -1;
+  width: 70%;
+}
+
+
 .columServUno{
   float: left;
   width: 30%;
@@ -1487,28 +1514,7 @@ body,
 
 
 
-.footer{
-  background-color:rgb(166, 41, 216);
-  
-}
 
-.imgFb{
-  width: 1.5vw;
-  margin-right: 2%;
-}
-
-
-.divParallax{
-
-  background-image: url('./imagenes/profecionales.jpg');
-  height: 50vw;
-  background-size: 100%;
-  text-align: center;
-  position: fixed;
-  margin-top: 60%;
-  z-index: -1;
-  width: 70%;
-}
 
 
 

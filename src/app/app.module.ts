@@ -19,6 +19,8 @@ import { VermasComponent } from './vermas/vermas.component';
 import { TecnologiasComponent } from './tecnologias/tecnologias.component';
 import { ParallaxDirective } from './parallax.directive';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MobiliarioComponent } from './mobiliario/mobiliario.component';
+import { ImprentaComponent } from './imprenta/imprenta.component';
 
 
 
@@ -34,7 +36,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ContactanosComponent,
     VermasComponent,
     TecnologiasComponent,
-    ParallaxDirective  
+    ParallaxDirective,
+    MobiliarioComponent,
+    ImprentaComponent  
   ],
   imports: [
     BrowserModule,

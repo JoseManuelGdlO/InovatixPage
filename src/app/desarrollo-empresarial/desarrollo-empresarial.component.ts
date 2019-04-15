@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 
 
@@ -9,7 +10,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DesarrolloEmpresarialComponent implements OnInit {
 
-  constructor() { }
+  id:any;
+
+  constructor(private _Activatedroute:ActivatedRoute) { 
+    this.id=this._Activatedroute.snapshot.params['id'];
+
+    if(this.id == 1){
+      ///Plan de negocios
+    }else if(this.id == 2){
+      ///Capacitacion
+
+    }else if(this.id == 3){
+      ///Desarrollo de franquicias
+
+    }
+
+    console.log("ID: "+this.id);
+  }
 
   ngOnInit() {
   }

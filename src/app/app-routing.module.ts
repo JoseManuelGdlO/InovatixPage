@@ -13,11 +13,11 @@ import { ImprentaComponent } from './imprenta/imprenta.component';
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: 'contactanos', component: ContactanosComponent },
-  { path: 'desarrollo', component: DesarrolloEmpresarialComponent },
+  { path: 'desarrollo/:id', component: DesarrolloEmpresarialComponent },
   { path: 'proyectos', component: PrincipalesProyectosComponent },
   { path: 'marca', component: RegistroMarcaComponent },
   { path: 'tienda', component: TiendaLineaComponent },
-  { path: 'tecnologias', component: TecnologiasComponent },
+  { path: 'tecnologias/:id', component: TecnologiasComponent },
   { path: 'mobiliario', component: MobiliarioComponent },
   { path: 'imprenta', component: ImprentaComponent }
 ];

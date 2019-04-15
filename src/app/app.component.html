@@ -45,57 +45,61 @@
                 <button mat-button color="primary" routerLink="/tecnologias" class="btnMenuTec">Tecnologias</button>
                 <button mat-button color="primary" routerLink="/proyectos" class="btnMenu">Principales Proyectos</button>
                 <button mat-button color="primary" routerLink="/contactanos" class="btnMenuTec">Contáctanos</button>-->
-                <button class="btnDespl" color="primary" mat-button [matMenuTriggerFor]="productos">Productos</button>
-                <mat-menu  #productos="matMenu">
-                    <button mat-menu-item >Promociones</button>
-                    <button mat-menu-item [matMenuTriggerFor]="desarrollo">Desarrollo Empresarial</button>
-                    <button mat-menu-item [matMenuTriggerFor]="tecnologias">Tecnologías</button>
-                    <button mat-menu-item [matMenuTriggerFor]="mobiliario">Mobiliario</button>
-                    <button mat-menu-item [matMenuTriggerFor]="imprenta">Imprenta</button>
-                    <button mat-menu-item >Tu Tienda en Linea</button>
-                    <button mat-menu-item [matMenuTriggerFor]="registro">Registro de Marca</button>
-                </mat-menu>
-                <mat-menu #registro="matMenu">
-                  <button mat-menu-item>Diseño de Logotipo</button>
-                  <button mat-menu-item>Registro de Marca</button>
-                </mat-menu>
-      
-                <button class="btnDespl" color="primary" mat-button [matMenuTriggerFor]="desarrollo">Desarrollo Empresarial</button>
-                <mat-menu  #desarrollo="matMenu">
-                    <button mat-menu-item>Plan de Negocios</button>
-                    <button mat-menu-item>Capacitacion</button>
-                    <button mat-menu-item>Desarrollo de Franquicias</button>
-                </mat-menu>
-      
-                <button class="btnDespl" color="primary" mat-button [matMenuTriggerFor]="tecnologias">Tecnologías</button>
-                <mat-menu  #tecnologias="matMenu">
-                    <button mat-menu-item>Punto de Venta</button>
-                    <button mat-menu-item>Aplicaciones Moviles</button>
-                    <button mat-menu-item>Pagina Web</button>
-                    <button mat-menu-item>Software a la Medida</button>
-                    <button mat-menu-item>Equipo de Computo</button>
-                </mat-menu>
-      
-                <button class="btnDespl" color="primary" mat-button [matMenuTriggerFor]="mobiliario">Mobiliario</button>
-                <mat-menu  #mobiliario="matMenu">
-                    <button mat-menu-item>Para Oficina</button>
-                    <button mat-menu-item>Para Hospitales</button>
-                </mat-menu>
-      
-                <button class="btnDespl" color="primary" mat-button [matMenuTriggerFor]="imprenta">Imprenta</button>
-                <mat-menu  #imprenta="matMenu">
-                    <button mat-menu-item>Volantes</button>
-                    <button mat-menu-item>Lonas</button>
-                    <button mat-menu-item>Tarjetas de Presentación</button>
-                    <button mat-menu-item>Camisas</button>
-                    <button mat-menu-item>Tazas</button>
-                </mat-menu>
-      
-                <button mat-button class="btnDespl" color="primary" routerLink="/proyectos">Nuestros Proyectos</button>
 
-                <button mat-button class="btnDespl" style="margin-right: 3vw;" color="primary" routerLink="/contactanos">Contactanos</button>
-      
-      
+                <div class="divMenuDos">
+                  <button class="btnDespl" color="primary" mat-button [matMenuTriggerFor]="productos">Productos</button>
+                  <mat-menu  #productos="matMenu">
+                      <button mat-menu-item routerLink="">Promociones</button>
+                      <button mat-menu-item routerLink="/desarrollo" [matMenuTriggerFor]="desarrollo">Desarrollo Empresarial</button>
+                      <button mat-menu-item routerLink="/tecnologias" [matMenuTriggerFor]="tecnologias">Tecnologías</button>
+                      <button mat-menu-item routerLink="/mobiliario" [matMenuTriggerFor]="mobiliario">Mobiliario</button>
+                      <button mat-menu-item routerLink="/imprenta" [matMenuTriggerFor]="imprenta">Imprenta</button>
+                      <button mat-menu-item routerLink="/tienda">Tu Tienda en Linea</button>
+                      <button mat-menu-item routerLink="/marca" [matMenuTriggerFor]="registro">Registro de Marca</button>
+                  </mat-menu>
+                  <mat-menu #registro="matMenu">
+                    <button mat-menu-item>Diseño de Logotipo</button>
+                    <button mat-menu-item>Registro de Marca</button>
+                  </mat-menu>
+        
+                  <button class="btnDespl" color="primary" mat-button [matMenuTriggerFor]="desarrollo">Desarrollo Empresarial</button>
+                  <mat-menu  #desarrollo="matMenu">
+                      <button mat-menu-item [routerLink]="['/desarrollo', '1']">Plan de Negocios</button>
+                      <button mat-menu-item [routerLink]="['/desarrollo', '2']">Capacitacion</button>
+                      <button mat-menu-item [routerLink]="['/desarrollo', '3']">Desarrollo de Franquicias</button>
+                  </mat-menu>
+        
+                  <button class="btnDespl" color="primary" mat-button [matMenuTriggerFor]="tecnologias">Tecnologías</button>
+                  <mat-menu  #tecnologias="matMenu">
+                      <button mat-menu-item [routerLink]="['/tecnologias', '1']">Punto de Venta</button>
+                      <button mat-menu-item [routerLink]="['/tecnologias', '2']">Aplicaciones Moviles</button>
+                      <button mat-menu-item [routerLink]="['/tecnologias', '3']">Pagina Web</button>
+                      <button mat-menu-item [routerLink]="['/tecnologias', '4']">Software a la Medida</button>
+                      <button mat-menu-item [routerLink]="['/tecnologias', '5']">Equipo de Computo</button>
+                  </mat-menu>
+        
+                  <button class="btnDespl" color="primary" mat-button [matMenuTriggerFor]="mobiliario">Mobiliario</button>
+                  <mat-menu  #mobiliario="matMenu">
+                      <button mat-menu-item>Para Oficina</button>
+                      <button mat-menu-item>Para Hospitales</button>
+                  </mat-menu>
+        
+                  <button class="btnDespl" color="primary" mat-button [matMenuTriggerFor]="imprenta">Imprenta</button>
+                  <mat-menu  #imprenta="matMenu">
+                      <button mat-menu-item>Volantes</button>
+                      <button mat-menu-item>Lonas</button>
+                      <button mat-menu-item>Tarjetas de Presentación</button>
+                      <button mat-menu-item>Camisas</button>
+                      <button mat-menu-item>Tazas</button>
+                  </mat-menu>
+        
+                  <button mat-button class="btnDespl" color="primary" routerLink="/proyectos">Nuestros Proyectos</button>
+  
+                  <button mat-button class="btnDespl" style="margin-right: 3vw;" color="primary" routerLink="/contactanos">Contactanos</button>
+        
+        
+                </div>
+                
       
                 <div class="divHamburgesa">
                   <button class="btnHamburger" mat-icon-button [matMenuTriggerFor]="menu">

@@ -115,16 +115,16 @@
                     <button routerLink="/tienda" mat-menu-item>
                       <span>Tienda en Linea</span>
                     </button>
-                    <button routerLink="/marca" mat-menu-item>
+                    <button [routerLink]="['/marca', '']" mat-menu-item>
                         <span>Registro de Marca</span>
                       </button>
-                      <button routerLink="/desarrollo" mat-menu-item>
+                      <button [routerLink]="['/desarrollo', '']" mat-menu-item>
                           <span>Desarrollo Empresarial</span>
                         </button>
-                        <button routerLink="/tecnologias" mat-menu-item>
+                        <button [routerLink]="['/tecnologias', '']" mat-menu-item>
                           <span>Tecnologias</span>
                         </button>
-                        <button routerLink="/contactanos" mat-menu-item disabled>
+                        <button routerLink="/contactanos" mat-menu-item>
                             <span>Contáctanos</span>
                           </button>
                   </mat-menu></div>

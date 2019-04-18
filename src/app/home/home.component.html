@@ -72,7 +72,7 @@
            
           
 
-                  <button mdbBtn class="btnComparAhora" type="button" gradient="purple" routerLink="/marca" rounded="true" mdbWavesEffect>Ver Mas</button>
+                  <button mdbBtn class="btnComparAhora" type="button" gradient="purple" [routerLink]="['/marca', '2']" rounded="true" mdbWavesEffect>Ver Mas</button>
 
                </div>
 
@@ -96,7 +96,7 @@
 
             <div style="text-align:center;">
 
-                <button mdbBtn class="btnComparAhora" type="button" gradient="purple" routerLink="/desarrollo" rounded="true" mdbWavesEffect>Ver Mas</button>
+                <button mdbBtn class="btnComparAhora" type="button" gradient="purple" [routerLink]="['/desarrollo', '3']" rounded="true" mdbWavesEffect>Ver Mas</button>
 
              </div>
            
@@ -220,7 +220,7 @@
 
 
 <div class="divColumanasTiendaPuntoMovil" style="margin-top: 2vw;">
-    <mat-grid-list cols="1" rowHeight="40vw">
+    <mat-grid-list cols="1" rowHeight="50vw">
 
         <mat-grid-tile
         [colspan]="1"
@@ -300,7 +300,7 @@
         automatizar tus cobros, cobrar con tarjetas, administrar tus inventarios, tus compras y 
         ¡mucho más! Contamos con el producto a tu medida y presupuesto.</p>
         <div style="text-align: center;">
-            <button mdbBtn type="button" gradient="purple" rounded="true" routerLink="/tecnologias" mdbWavesEffect>¡Comprar Ahora!</button>
+            <button mdbBtn type="button" gradient="purple" rounded="true" [routerLink]="['/tecnologias', '1']" mdbWavesEffect>¡Comprar Ahora!</button>
         </div>
     </div>
   

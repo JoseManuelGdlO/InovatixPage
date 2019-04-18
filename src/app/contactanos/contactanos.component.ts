@@ -1,6 +1,9 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { CorreoService } from '../correo.service';
-import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { ActivatedRoute } from '@angular/router';
+import { Router, NavigationEnd } from '@angular/router';
+
+import { FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-contactanos',
@@ -18,12 +21,21 @@ export class ContactanosComponent implements OnInit {
   producto:any;
   mensaje:any;
 
-  constructor(private fb: FormBuilder,public correo: CorreoService) {
+  constructor(private fb: FormBuilder,public correo: CorreoService, private router: Router, private rutaActiva: ActivatedRoute) {
    
    }
 
   ngOnInit() {
+    var component = this.rutaActiva.snapshot.params.id;
+    console.log(component);
+    this.router.events.subscribe((evt) => {
+      if (!(evt instanceof NavigationEnd)) {
+          return;
+      }
+      window.scrollTo(0, 0)
+  });
   }
+  
 
 
     onSubmit() {

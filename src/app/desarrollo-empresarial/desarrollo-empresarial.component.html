@@ -1,4 +1,139 @@
+<header id="main-header" class="header">
 
+
+    <div class="row1">
+        <div class="column">
+  
+          <div class="colum2">
+  
+            <mat-icon class="iconHeader">call</mat-icon>
+            <h4 class="h1tel">618-189-0440</h4>
+  
+          </div>
+          <div class="colum2">
+  
+              <mat-icon class="iconEmail">email</mat-icon>
+               <h4 class="h1tel">comercial@inovatix.com.mx</h4>
+  
+            </div>
+        </div>
+        <div class="column">
+  
+            <a href="https://www.facebook.com/inovatix.org/" target="_blank">
+            <img class="imgFb"  src="assets/img/facebook.png" alt="">
+            </a>
+          
+          
+        </div>
+       
+      </div>
+      <div class="divSepara"></div>
+  
+      <div class="row">
+        <div class="columMenuLogo">
+  
+            <img class="imgLogo" src="assets/img/logo_ino.png" alt="">
+        </div>
+        <div class="columMenu">
+  
+           
+  <!--
+            <button mat-button color="primary" routerLink="" class="btnMenuHome" style="font-weight: bold;">Productos</button>
+            <button mat-button color="primary" routerLink="/tienda" class="btnMenuTienda">Tienda en Linea</button>
+            <button mat-button color="primary" routerLink="/marca" class="btnMenu">Registro de Marca</button>
+            <button mat-button color="primary" routerLink="/desarrollo" class="btnMenu">Desarrollo empresarial</button>
+            <button mat-button color="primary" routerLink="/tecnologias" class="btnMenuTec">Tecnologias</button>
+            <button mat-button color="primary" routerLink="/proyectos" class="btnMenu">Principales Proyectos</button>
+            <button mat-button color="primary" routerLink="/contactanos" class="btnMenuTec">Contáctanos</button>-->
+
+            <div class="divMenuDos">
+              <button class="btnDespl" color="primary" mat-button [matMenuTriggerFor]="productos">Productos</button>
+              <mat-menu  #productos="matMenu">
+                  <button mat-menu-item routerLink="">Promociones</button>
+                  <button mat-menu-item routerLink="/desarrollo" [matMenuTriggerFor]="desarrollo">Desarrollo Empresarial</button>
+                  <button mat-menu-item routerLink="/tecnologias" [matMenuTriggerFor]="tecnologias">Tecnologías</button>
+                  <button mat-menu-item routerLink="/mobiliario" [matMenuTriggerFor]="mobiliario">Mobiliario</button>
+                  <button mat-menu-item routerLink="/imprenta" [matMenuTriggerFor]="imprenta">Imprenta</button>
+                  <button mat-menu-item routerLink="/tienda">Tu Tienda en Linea</button>
+                  <button mat-menu-item [routerLink]="['/marca', '']" [matMenuTriggerFor]="registro">Registro de Marca</button>
+                  </mat-menu>
+                  <mat-menu #registro="matMenu">
+                    <button mat-menu-item [routerLink]="['/marca', '1']">Diseño de Logotipo</button>
+                    <button mat-menu-item [routerLink]="['/marca', '2']">Registro de Marca</button>
+                  </mat-menu>
+                  
+              <button class="btnDespl" color="primary" mat-button [matMenuTriggerFor]="desarrollo">Desarrollo Empresarial</button>
+              <mat-menu  #desarrollo="matMenu">
+                  <button mat-menu-item (click)="openDialog(1)">Plan de Negocios</button>
+                  <button mat-menu-item (click)="openDialog(2)">Capacitacion</button>
+                  <button mat-menu-item (click)="openDialog(3)">Desarrollo de Franquicias</button>
+              </mat-menu>
+    
+              <button class="btnDespl" color="primary" mat-button [matMenuTriggerFor]="tecnologias">Tecnologías</button>
+              <mat-menu  #tecnologias="matMenu">
+                  <button mat-menu-item [routerLink]="['/tecnologias', '1']">Punto de Venta</button>
+                  <button mat-menu-item [routerLink]="['/tecnologias', '2']">Aplicaciones Moviles</button>
+                  <button mat-menu-item [routerLink]="['/tecnologias', '3']">Pagina Web</button>
+                  <button mat-menu-item [routerLink]="['/tecnologias', '4']">Software a la Medida</button>
+                  <button mat-menu-item [routerLink]="['/tecnologias', '5']">Equipo de Computo</button>
+              </mat-menu>
+    
+              <button class="btnDespl" color="primary" mat-button [matMenuTriggerFor]="mobiliario">Mobiliario</button>
+                  <mat-menu  #mobiliario="matMenu">
+                      <button routerLink="/mobiliario" mat-menu-item>Para Oficina</button>
+                      <button routerLink="/mobiliario" mat-menu-item>Para Hospitales</button>
+                  </mat-menu>
+        
+                  <button class="btnDespl" color="primary" mat-button [matMenuTriggerFor]="imprenta">Imprenta</button>
+                  <mat-menu  #imprenta="matMenu">
+                      <button mat-menu-item routerLink="/imprenta">Volantes</button>
+                      <button mat-menu-item routerLink="/imprenta">Lonas</button>
+                      <button mat-menu-item routerLink="/imprenta">Tarjetas de Presentación</button>
+                      <button mat-menu-item routerLink="/imprenta">Camisas</button>
+                      <button mat-menu-item routerLink="/imprenta">Tazas</button>
+                  </mat-menu>
+    
+              <button mat-button class="btnDespl" color="primary" routerLink="/proyectos">Nuestros Proyectos</button>
+
+              <button mat-button class="btnDespl" style="margin-right: 3vw;" color="primary" routerLink="/contactanos">Contáctanos</button>
+    
+    
+            </div>
+            
+  
+            <div class="divHamburgesa">
+              <button class="btnHamburger" mat-icon-button [matMenuTriggerFor]="menu">
+                <mat-icon>menu</mat-icon>
+              </button>
+              <mat-menu #menu="matMenu">
+                <button routerLink="" mat-menu-item >
+                  <span>Productos</span>
+                </button>
+                <button routerLink="/proyectos" mat-menu-item >
+                  <span>Principales Proyectos</span>
+                </button>
+                <button routerLink="/tienda" mat-menu-item>
+                  <span>Tienda en Linea</span>
+                </button>
+                <button routerLink="/marca" mat-menu-item>
+                    <span>Registro de Marca</span>
+                  </button>
+                  <button routerLink="/desarrollo" mat-menu-item>
+                      <span>Desarrollo Empresarial</span>
+                    </button>
+                    <button routerLink="/tecnologias" mat-menu-item>
+                      <span>Tecnologias</span>
+                    </button>
+                    <button routerLink="/contactanos" mat-menu-item disabled>
+                        <span>Contáctanos</span>
+                      </button>
+              </mat-menu></div>
+        </div>
+      </div>
+  
+   
+  
+  </header>
 
 <div style="margin-top:8%;"></div>
 
@@ -111,7 +246,7 @@
                             <p class="pCard">El manual de operaciones es la guía autorizada de cómo realizar las actividades en tu negocio. Brinda una forma eficaz de comunicar 
                                 las políticas y procedimientos, y ofrece a sus empleados la independencia y la seguridad que necesitan para operar en sus puestos 
                                 dando máximos resultados.
-                                contribuye a que ninguno empleado sea poseedor de la información o actividad del puesto facilitando la instalación o reajuste de 
+                                contribuye a que ningun empleado sea poseedor de la información o actividad del puesto facilitando la instalación o reajuste de 
                                 personal en la organización
                             </p>
                         </mat-card-content>

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 import { ActivatedRoute } from '@angular/router';
 import { Router, NavigationEnd } from '@angular/router';
@@ -11,6 +11,7 @@ import { Router, NavigationEnd } from '@angular/router';
 export class AppComponent {
   title = 'inovatixWeb';
 
+ 
   constructor(private router: Router, private rutaActiva: ActivatedRoute) { 
 
   

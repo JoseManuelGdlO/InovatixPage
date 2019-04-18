@@ -90,6 +90,10 @@
   background-color: rgb(243, 243, 243);
 }
 
+.divMenuDos{
+  display: none;
+}
+
 
 
 .columMenu{
@@ -371,6 +375,10 @@
 
 }
 
+.divMenuDos{
+  display: none;
+}
+
 .btnMenuTienda{
   display: none;
   height: 2.5vw;
@@ -590,6 +598,11 @@
     font-size: .9vw;
     font-family: Montserrat;
 
+  }
+
+  .btnDespl{
+    font-family: Montserrat;
+    color: rgb(105, 54, 126);
   }
 
   .btnMenuHome{

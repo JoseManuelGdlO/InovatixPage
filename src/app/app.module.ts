@@ -15,12 +15,12 @@ import { ContactanosComponent } from './contactanos/contactanos.component';
 import { HttpClientModule } from '@angular/common/http';
 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
-import { VermasComponent } from './vermas/vermas.component';
 import { TecnologiasComponent } from './tecnologias/tecnologias.component';
 import { ParallaxDirective } from './parallax.directive';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MobiliarioComponent } from './mobiliario/mobiliario.component';
 import { ImprentaComponent } from './imprenta/imprenta.component';
+import { DivisionesComponent } from './divisiones/divisiones.component';
 
 
 
@@ -34,11 +34,11 @@ import { ImprentaComponent } from './imprenta/imprenta.component';
     RegistroMarcaComponent,
     DesarrolloEmpresarialComponent,
     ContactanosComponent,
-    VermasComponent,
     TecnologiasComponent,
     ParallaxDirective,
     MobiliarioComponent,
-    ImprentaComponent  
+    ImprentaComponent,
+    DivisionesComponent  
   ],
   imports: [
     BrowserModule,
@@ -50,7 +50,7 @@ import { ImprentaComponent } from './imprenta/imprenta.component';
     ReactiveFormsModule,
     HttpClientModule
   ],
-  entryComponents: [VermasComponent],
+  entryComponents: [DivisionesComponent],
   providers: [],
   bootstrap: [AppComponent]
 })

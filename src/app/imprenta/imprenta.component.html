@@ -1,6 +1,82 @@
 
 
 <div style="margin-top: 15%;"></div>
+<div style="text-align: center;">
+  <h1 style="font-size: 4vw; font-family: Montserrat; color: #c9369c">Imprenta</h1>
+  <p style="font-size: 3vw; font-family: Montserrat; color: #000">Para poder brindarte un mejor servicio platicanos que producto te interesa y nos comunicaremos lo mas pronto posible</p>
+</div>
+
+
+
+
+
+<!-- Default form contact -->
+<form style="padding: 2vw;" class="text-center">
+
+  
+    <!-- Name -->
+    <input type="text" id="defaultContactFormNombre" class="form-control mb-4" [(ngModel)]="name" name="name" placeholder="Nombre Completo" required>
+
+    <!-- Name -->
+    <input type="text" id="defaultContactFormEmpresa" class="form-control mb-4" [(ngModel)]="empresa" name="empresa" placeholder="Nombre de la Empresa" required>
+    <!-- Name -->
+    <input type="text" id="defaultContactFormTelefono" class="form-control mb-4" [(ngModel)]="telefono" name="telefono" placeholder="Telefono" required>
+  
+    <!-- Email -->
+    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" [(ngModel)]="email" name="email" placeholder="Correo Electrónico" required>
+  
+    <!-- Subject -->
+    <label style="font-family: Montserrat; color:#c9369c;">¿Qué producto te Interesa?</label>
+    <select class="browser-default custom-select mb-4" [(ngModel)]="producto" name="producto" required>
+      <option value="" disabled>Elije la Opción</option>
+      <option value="Mobiliario">Mobiliario</option>
+    </select>
+  
+    <!-- Message -->
+    <div class="form-group">
+      <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" [(ngModel)]="mensaje" name="mensaje" rows="3" placeholder="Platícanos que de todo esto fue lo que te interesó" required></textarea>
+    </div>
+  
+  
+  
+    <!-- Send button -->
+    <button mdbBtn gradient="purple" rounded="true" mdbWavesEffect class="btn btn-info btn-block" type="submit" data-toggle="modal" data-target="#basicExample" (click)="onSubmit()" (click)="frame.show()">Enviar Información</button>
+  
+  </form>
+  <!-- Default form contact  -->
+
+  <div mdbModal #frame="mdbModal" class="modal fade top" id="frameModalTop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-notify modal-info" role="document">
+    <!--Content-->
+    <div class="modal-content">
+      <!--Header-->
+      <div class="modal-header">
+        <p class="heading lead">Informacion Enviada</p>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="frame.hide()">
+          <span aria-hidden="true" class="white-text">&times;</span>
+        </button>
+      </div>
+
+      <!--Body-->
+      <div class="modal-body">
+        <div class="text-center">
+          <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+          <p>la informacion que haz proporcionado ha sido enviada espera nuestra llamada Gracias</p>
+        </div>
+      </div>
+
+      <!--Footer-->
+      <div class="modal-footer justify-content-center">
+        <a type="button" mdbBtn color="primary" outline="true" class="waves-effect" mdbWavesEffect (click)="frame.hide()">Cerrar</a>
+      </div>
+    </div>
+    <!--/.Content-->
+  </div>
+</div>
+
+
 
 
 

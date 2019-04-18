@@ -116,6 +116,10 @@
 
 }
 
+.divMenuDos{
+  display: none;
+}
+
 .btnMenuHome{
   display: none;
   height: 2.5vw;
@@ -316,6 +320,10 @@
     margin-top: 5px;
     background-color: rgb(105, 54, 126);
     display: none;
+}
+
+.divMenuDos{
+  display: none;
 }
 
 
@@ -568,6 +576,12 @@
 
   }
 
+  .btnDespl{
+    font-family: Montserrat;
+    color: rgb(105, 54, 126);
+  }
+
+
   .btnMenuHome{
     height: 2.5vw;
     color: #000;
@@ -657,7 +671,8 @@
   
   .divApps{
     background-image: url('./img/fondo_apps.png');
-    height: 45vw;
+    height: 60vw; 
+    padding-top: 10vw;
     background-size: 100%;
     text-align: justify;
   }
@@ -667,7 +682,7 @@
     font-family: Quicksand;
     font-size: 2vw; 
     padding-top: 1vw;  
-    color: rgb(105, 54, 126);
+    color: #FFF;
   
   }
   
@@ -678,6 +693,7 @@
     font-size: 1vw; 
     padding-left: 10vw;
     padding-right: 10vw;
+    color: #FFF;
   
   }
   

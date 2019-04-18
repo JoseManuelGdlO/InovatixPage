@@ -50,16 +50,16 @@
                   <button class="btnDespl" color="primary" mat-button [matMenuTriggerFor]="productos">Productos</button>
                   <mat-menu  #productos="matMenu">
                       <button mat-menu-item routerLink="">Promociones</button>
-                      <button mat-menu-item routerLink="/desarrollo" [matMenuTriggerFor]="desarrollo">Desarrollo Empresarial</button>
-                      <button mat-menu-item routerLink="/tecnologias" [matMenuTriggerFor]="tecnologias">Tecnologías</button>
+                      <button mat-menu-item routerLink="/desarrollo/ " [matMenuTriggerFor]="desarrollo">Desarrollo Empresarial</button>
+                      <button mat-menu-item [routerLink]="['/tecnologias', ' ']" [matMenuTriggerFor]="tecnologias">Tecnologías</button>
                       <button mat-menu-item routerLink="/mobiliario" [matMenuTriggerFor]="mobiliario">Mobiliario</button>
                       <button mat-menu-item routerLink="/imprenta" [matMenuTriggerFor]="imprenta">Imprenta</button>
                       <button mat-menu-item routerLink="/tienda">Tu Tienda en Linea</button>
-                      <button mat-menu-item routerLink="/marca" [matMenuTriggerFor]="registro">Registro de Marca</button>
+                      <button mat-menu-item [routerLink]="['/marca', '']" [matMenuTriggerFor]="registro">Registro de Marca</button>
                   </mat-menu>
                   <mat-menu #registro="matMenu">
-                    <button mat-menu-item>Diseño de Logotipo</button>
-                    <button mat-menu-item>Registro de Marca</button>
+                    <button mat-menu-item [routerLink]="['/marca', '1']">Diseño de Logotipo</button>
+                    <button mat-menu-item [routerLink]="['/marca', '2']">Registro de Marca</button>
                   </mat-menu>
         
                   <button class="btnDespl" color="primary" mat-button [matMenuTriggerFor]="desarrollo">Desarrollo Empresarial</button>
@@ -80,22 +80,22 @@
         
                   <button class="btnDespl" color="primary" mat-button [matMenuTriggerFor]="mobiliario">Mobiliario</button>
                   <mat-menu  #mobiliario="matMenu">
-                      <button mat-menu-item>Para Oficina</button>
-                      <button mat-menu-item>Para Hospitales</button>
+                      <button routerLink="/mobiliario" mat-menu-item>Para Oficina</button>
+                      <button routerLink="/mobiliario" mat-menu-item>Para Hospitales</button>
                   </mat-menu>
         
                   <button class="btnDespl" color="primary" mat-button [matMenuTriggerFor]="imprenta">Imprenta</button>
                   <mat-menu  #imprenta="matMenu">
-                      <button mat-menu-item>Volantes</button>
-                      <button mat-menu-item>Lonas</button>
-                      <button mat-menu-item>Tarjetas de Presentación</button>
-                      <button mat-menu-item>Camisas</button>
-                      <button mat-menu-item>Tazas</button>
+                      <button mat-menu-item routerLink="/imprenta">Volantes</button>
+                      <button mat-menu-item routerLink="/imprenta">Lonas</button>
+                      <button mat-menu-item routerLink="/imprenta">Tarjetas de Presentación</button>
+                      <button mat-menu-item routerLink="/imprenta">Camisas</button>
+                      <button mat-menu-item routerLink="/imprenta">Tazas</button>
                   </mat-menu>
         
                   <button mat-button class="btnDespl" color="primary" routerLink="/proyectos">Nuestros Proyectos</button>
   
-                  <button mat-button class="btnDespl" style="margin-right: 3vw;" color="primary" routerLink="/contactanos">Contactanos</button>
+                  <button mat-button class="btnDespl" style="margin-right: 3vw;" color="primary" routerLink="/contactanos">Contáctanos</button>
         
         
                 </div>

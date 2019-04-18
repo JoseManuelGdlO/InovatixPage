@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {MatBottomSheet, MatBottomSheetRef} from '@angular/material';
-import { VermasComponent }from '../vermas/vermas.component';
 import { ActivatedRoute } from '@angular/router';
 import { Router, NavigationEnd } from '@angular/router';
 
@@ -31,9 +30,7 @@ export class HomeComponent implements OnInit {
   });
   }
 
-  abrirModal(): void {
-    this.bottomSheet.open(VermasComponent);
-  }
+ 
 
   
   

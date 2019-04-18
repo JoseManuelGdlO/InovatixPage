@@ -11,11 +11,12 @@ import { MobiliarioComponent } from './mobiliario/mobiliario.component';
 import { ImprentaComponent } from './imprenta/imprenta.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent, pathMatch: 'full' },
+  { path: '', redirectTo:'home' , pathMatch: 'full' },
+  { path: 'home', component: HomeComponent},
   { path: 'contactanos', component: ContactanosComponent },
   { path: 'desarrollo/:id', component: DesarrolloEmpresarialComponent },
   { path: 'proyectos', component: PrincipalesProyectosComponent },
-  { path: 'marca', component: RegistroMarcaComponent },
+  { path: 'marca/:id', component: RegistroMarcaComponent },
   { path: 'tienda', component: TiendaLineaComponent },
   { path: 'tecnologias/:id', component: TecnologiasComponent },
   { path: 'mobiliario', component: MobiliarioComponent },

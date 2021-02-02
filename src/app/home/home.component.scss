@@ -1518,4 +1518,17 @@ body,
 
 
 
+.divParallax{
+
+  background-image: url('./imagenes/profecionales.jpg');
+  height: 50vw;
+  background-size: 100%;
+  text-align: center;
+  position: fixed;
+  margin-top: 60%;
+  z-index: -1;
+  width: 70%;
+}
+
+
 

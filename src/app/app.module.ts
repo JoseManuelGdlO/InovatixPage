@@ -38,7 +38,7 @@ import { DivisionesComponent } from './divisiones/divisiones.component';
     ParallaxDirective,
     MobiliarioComponent,
     ImprentaComponent,
-    DivisionesComponent  
+    DivisionesComponent 
   ],
   imports: [
     BrowserModule,
